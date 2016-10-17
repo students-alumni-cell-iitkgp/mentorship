@@ -146,7 +146,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				'method' => 'post',
 				'role' => 'form',
 				);		
-			echo form_open('<?php echo base_url();?>index.php/welcome/member_area',$for);
+			echo form_open('index.php/welcome/member_area',$for);
 			?>
 			<div class="col-md-3">
 				<?php
