@@ -289,8 +289,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<hr style="color:black;opacity:0.8;">
 
 									<div class="collapse well" id="collapseOne">
-										As an Alumni Mentor you are a guide, friend and resource who shares your Kgp education and professional experience to help pave the way for current students to succeed at Kgp and beyond. A Kgp Alumni Mentor derives satisfaction from helping Kgp students fulfill their potential.<br>
-
+										An Alumni Mentor is a guide, friend and resource who shares her/his  KGP experience to help pave the way for students to succeed at KGP and beyond. A KGP Alumni Mentor derives satisfaction from helping KGP students fulfil their dreams.<br>
 									</div>
 								</div>
 
@@ -300,17 +299,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									</a>
 
 									<hr>
+             
 
 									<div class="well collapse" id="collapseTwo">
-										We believe that mentoring will be a positive and enriching experience for you. Specifically, we hope you will:
+										We believe that mentoring will be a positive and enriching experience for you. Specifically,we hope you will:<br>
+                                        <br>
+                                        <div class="list-group">
+											<li class="list-group-item">
+												•	Refine your coaching and mentoring skills.
+											</li>
+											<li class="list-group-item">
+												•	Develop meaningful connections with students. 
+											</li>
+											<li class="list-group-item">
+												•	Learn about the KGP of today and the next generation.
+											</li>
+											<li class="list-group-item">
+												•	Experience a reconnection with your Alma Mater. 
+											</li>
+											
+										</div><!--list-group-item ends -->
 
-										Refine your coaching and mentoring skills 
-										Develop meaningful connections with students 
-
-										Learn about the Kgp of today and the next generation<hr>
-
-										Experience a reconnection with your Alma Mater
-									</div>
+                                     </div>
 								</div><!--Container12 Ends -->
 
 								<div class="">
@@ -493,7 +503,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 									<div class="col-md-6"></div>
 									<div class="col-md-3" style="position:relative;font:bold 15px Calibri; text-align:center">
-										Mridul Pant <br>mridul2010@gmail.com <br>+919933935867</div>	
+										Mridul Pant <br><div style="position:relative; left:-40px;" >mridul2010@gmail.com </div> +919933935867</div>	
 									</div>
 								<div class="row" style="position:relative;font:bold 15px Calibri; text-align:center">
 								Shruti Sagar<br>shruti.sagar.iitkgp@gmail.com  <br>+919933952668 
