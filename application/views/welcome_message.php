@@ -4,6 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<link rel="icon" href="img/p.png">
 	<title>Welcome to Mentorship-Portal</title>
 	<link rel='stylesheet' href='css/social_icon.css'>
 
@@ -16,7 +17,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		#bg {
 			height: 400px;
 			width: 100%;
-			background-image: url('img/slider.jpg');
 			background-size:100% 100%;
 		}
 		#nav {
@@ -128,15 +128,58 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		.abc hr{			
 			color: black;
 			opacity: 0.8;
-		} 	
+		} 
+
+		input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}	
 	</style>
 </head>
 <body>
 	
 	<div id="bg">
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox" >
+    <div class="item active">
+      <img src="img/mentorslider.jpg" style="width: 100vw; height: 450px;">
+     
+    </div>
+
+    <div class="item">
+      <img src="img/mentorslidertwo.jpg" style="width: 100vw; height: 450px;">
+      
+    </div>
+
+    <div class="item">
+      <img src="img/mentorshipsliderthree.png" style="width: 100vw; height: 450px;">
+      
+    </div>
+
+    <div class="item">
+      <img src="img/mentorshipsliderfour.jpg"  style="width: 100vw; height: 450px;">
+      
+    </div>
+  </div>
+
+</div>
 		<div id="nav">
 
 		</div>
+
 		<div class="row" id="box" style="width:100%;float:right;margin-top:0px">
 			<div class="col-md-4"></div>
 			<?php 
@@ -180,16 +223,70 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<hr>
 	<div class="row">
 		<div class="col-md-3" id="box2">
-			<br><br>
+			<br>
 			<!--h2 style="text-align:center;">Register Here</h2-->
 			<button type="button" class="btn btn-primary btn-lg" name="add" data-toggle="modal" data-target="#registermentor">
 				I want to be a Mentor
 			</button>
-			<br><hr><br>
+			 <hr>
 			<button type="button" class="btn btn-primary btn-lg" name="add" data-toggle="modal" data-target="#registerstudent">
 				I want to be a Mentee
-			</button>
-		</div>
+			</button> <hr>
+		 
+					<h3 class="center" style="background-color:lightgrey;padding:10px;border-radius:8px; margin-top: 0px;"> Prominent Alumni Registered for this Programme </h3>
+					<marquee behavior="scroll" direction="up" scrollamount="8" height="202" >
+						<div class="marquee" >					
+							<ul class="list-group" data-spy="scroll" data-target=".navbar" data-offset="50" >
+								<li class="list-group-item prominent" id="1">Hardward Business School</li>
+								<li class="list-group-item prominent" id="4">Bank fo America</li>
+								<li class="list-group-item prominent" id="4">RBL</li>
+								<li class="list-group-item prominent" id="4">Citi Bank</li>
+								<li class="list-group-item prominent" id="10">McKinsey & Co</li>
+								<li class="list-group-item prominent" id="14">Credit Suisse</li>
+								<li class="list-group-item prominent" id="4">JP Morgan Chase</li>
+								<li class="list-group-item prominent" id="4">Standard Chartered Bank</li>
+								<li class="list-group-item prominent" id="4">Deutsche Bank</li>
+								<li class="list-group-item prominent" id="20">Hawkins Cookers Limited</li>
+								<li class="list-group-item prominent" id="10">Mindtree Limited</li>
+								<li class="list-group-item prominent" id="20">Lenovo</li>
+								<li class="list-group-item prominent" id="10">Delotti Consultancy SEA</li>
+								<li class="list-group-item prominent" id="18">Amazon</li>
+								<li class="list-group-item prominent" id="9">Hewelett Packard</li>
+								<li class="list-group-item prominent" id="10">Cognizant Technology</li>
+								<li class="list-group-item prominent" id="10">Infosys Limited</li>
+								<li class="list-group-item prominent" id="9">IBM</li>
+								<li class="list-group-item prominent" id="14">Stanford Gradute School of Business and Sustainable Growth Initiative</li>
+								<li class="list-group-item prominent" id="10">The Boston Consulting Group</li>
+								<li class="list-group-item prominent" id="18">Price Water House</li>
+								<li class="list-group-item prominent" id="14">PwC</li>
+								<li class="list-group-item prominent" id="10">Capgemini</li>
+								<li class="list-group-item prominent" id="10">Miebach Cousulting</li>
+								<li class="list-group-item prominent" id="14">KPMG</li>
+								<li class="list-group-item prominent" id="10">Schlumbreger</li>
+								<li class="list-group-item prominent" id="22">Sheil Oil Company</li>
+								<li class="list-group-item prominent" id="22">BP</li>
+								<li class="list-group-item prominent" id="22">Essar Oil Limited</li>
+								<li class="list-group-item prominent" id="15">Cairn India Limited</li>
+								<li class="list-group-item prominent" id="13">Reliance Industries</li>
+								<li class="list-group-item prominent" id="15">GE Oil & Gas</li>
+								<li class="list-group-item prominent" id="15">Occidental Petroleum</li>
+								<li class="list-group-item prominent" id="22">Indain Oil Corporation Limited</li>
+								<li class="list-group-item prominent" id="15">ONGC</li>
+								<li class="list-group-item prominent" id="all">MIT</li>
+								<li class="list-group-item prominent" id="all">Texas A & M</li>
+								<li class="list-group-item prominent" id="5">Wockhardt Ltd</li>
+								<li class="list-group-item prominent" id="9">Microsoft Research</li>
+								<li class="list-group-item prominent" id="10">Innovation Lab, Tata Consulantcy Services</li>
+								<li class="list-group-item prominent" id="all">Norwegian Unversity of Science and Technology</li>
+								<li class="list-group-item prominent" id="all">Georgia Institute of Technology</li>
+								<li class="list-group-item prominent" id="all">GFZ Potsdam</li>
+								<li class="list-group-item prominent" id="all">Swansea University</li>
+								<li class="list-group-item prominent" id="5">Dalichi Sankyo India Pharma Limited</li>
+								<li class="list-group-item prominent" id="all">University of Cincinnati</li>
+							</ul>
+						</div>
+					</marquee>
+				</div>
 		<div class="col-md-7" style="position:relative;left:25px;">
 			<ul class="nav nav-tabs">
 				<li class="active"><a data-toggle="tab" href="#home">About Mentorship Program</a></li>
@@ -238,7 +335,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								</p>
 							</div>
 							
-							<div class="col-md-4" >	<br><br><img src="img/t2.jpg" class="img img-circle" width="100%" height="80%">
+							<div class="col-md-4" >	<br><br><img src="img/t2.jpg" class="img img-circle" width="200px" height="200px">
 								<br><br>	<b style="position:relative;left:60px;">Ankit Gupta</b>
 							</div>
 						</div><hr>
@@ -252,7 +349,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									
 								</p></div>
 								
-								<div class="col-md-4"><br><img src="img/t3.jpg" class="img img-circle" width="100%" height="80%"><br><br><b style="position:relative;left:60px;">Pranshu Agrawal</b></div>
+								<div class="col-md-4"><br><img src="img/t3.jpg" class="img img-circle"  width="200px" height="200px"><br><br><b style="position:relative;left:60px;">Pranshu Agrawal</b></div>
 							</div><hr>
 							<div class="row">
 								<div class="col-md-8">
@@ -266,7 +363,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									</p>
 								</div>
 								
-								<div class="col-md-4"><img src="img/t1.jpg" class="img img-circle" width="100%" height="80%"><br><br><b style="position:relative;left:60px;">Gobind Singh</b></div>
+								<div class="col-md-4"><img src="img/t1.jpg" class="img img-circle" width="200px" height="200px"><br><br><b style="position:relative;left:60px;">Gobind Singh</b></div>
 							</p>
 						</div>
 					</div>
@@ -529,12 +626,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 </div>
 <br>
-<footer style="background-color:black; color:white; text-align:center; padding:10px; position:relative; bottom:0px; width:100%">&copy; Students' Alumni Cell
+<footer style="background-color:black; color:white; text-align:center; padding:10px; position:relative; bottom:0px; width:100%">&copy; Students' Alumni Cell, IIT Kharagpur
 	<ul class="soc">
 		<li><a class="soc-facebook"  href="//www.facebook.com/iitkgp.alumnicell?fref=ts&ref=br_tf" target="_blank"></a></li>
 		<li><a class="soc-twitter"   href="//twitter.com/IITKgpAlumni"target="_blank"></a></li>
 		<li><a class="soc-linkedin"  href="//www.linkedin.com/edu/school?id=13500&trk=prof-following-school-logo"target="_blank"></a></li>
-		<li><a class="soc-wikipedia" href=""target="_blank"></a></li>
 		<li><a class="soc-youtube soc-icon-last" href="//www.youtube.com/channel/UCtnSs1CT59Rd8L6VlOAxzRA"target="_blank"></a></li>
 	</ul>
 </footer>
@@ -727,6 +823,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<?php
 					$fcg = array('name' => 'cgpa' ,
 						'class' => 'form-control',
+						'type' => 'number',
 						'placeholder' => 'Enter Your Cgpa',
 						'required' => 'required' );
 					echo form_input($fcg);
@@ -742,7 +839,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					$fphone = array('name' => 'phone',
 						'class' => 'form-control',
 						'placeholder' => 'Enter Your Phone No.',
-						'type' => 'text',
+						'type' => 'number',
+
 						'required' => 'required');
 					echo form_input($fphone);
 					?>
@@ -1153,6 +1251,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					$fphone = array('name' => 'phone',
 						'class' => 'form-control',
 						'placeholder' => 'Enter Your Phone No.',
+						'type' =>'number',
 						'required' => 'required');
 					echo form_input($fphone);
 					?>
@@ -1190,13 +1289,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</form>
 
 </div>
+
+
 <div class="modal-footer">
 	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 </div>
+
 </div>
 
 </div>
+
 </div>
+
+
+
+
 
 <?php
 if(isset($_GET['err'])) {
@@ -1208,6 +1315,7 @@ if(isset($_GET['err'])) {
 	}
 }
 ?>
+
 
 <script type="text/javascript">
 	function f1(x){
@@ -1226,6 +1334,8 @@ if(isset($_GET['err'])) {
 			document.getElementById("f2").style.display="none";
 		}
 	}
+
+
 </script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
