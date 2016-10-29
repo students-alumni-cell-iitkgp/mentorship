@@ -20,7 +20,33 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');	
+
+	    if ($this->session->userdata('is_logged_in')){
+
+            $this->load->database();
+            if(!isset($_POST['logout'])){
+                $email=$this->session->userdata('email');
+                //var $query1,$query2;
+                $query = $this->db->get_where('users', array('email' => $email));
+                $query1 = $this->db->get_where('contact', array('email' => $email));
+                $query2 = $this->db->get_where('preferences', array('email' => $email));
+                $row=$query->row_array();
+                if ($query->num_rows()>0) {
+                    $row = $query->row_array();	$row1 = $query1->row_array();
+
+                        $this->load->view('users', $row );
+                }
+                else header('Location:index/?err=user');
+
+
+            }
+
+            else header('Location:index');
+
+            $this->load->model('member_area');
+
+        }
+	else $this->load->view('welcome_message');
 	}
 	
 	public function users() {
@@ -87,7 +113,7 @@ public function contact()
 	
 public function member_area()
 {
-	session_destroy();
+
 	$this->load->database();
 if(!isset($_POST['logout'])){
 	$email=$_POST['eid'];
@@ -100,6 +126,11 @@ if(!isset($_POST['logout'])){
 			$row = $query->row_array();	$row1 = $query1->row_array();
 			if($row['password']==$_POST['pass']){
 				$this->load->view('users', $row );
+                $data=array(
+                    'email'=>$this->input->post('eid'),
+                    'is_logged_in'=>true
+                );
+                $this->session->set_userdata($data);
 			}
 			else header('Location:index/?err=pass');
 
@@ -113,6 +144,12 @@ if(!isset($_POST['logout'])){
 
 	$this->load->model('member_area');
 	//$this->load->view('member_area',$_POST);
+
+    if (isset($_POST['logout'])){
+
+        $this->session->sess_destroy();
+    }
+
 }
 
 
