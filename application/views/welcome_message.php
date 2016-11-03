@@ -234,7 +234,7 @@ input[type=number]::-webkit-outer-spin-button {
 			</button> <hr>
 		 
 					<h3 class="center" style="background-color:lightgrey;padding:10px;border-radius:8px; margin-top: 0px;"> Prominent Alumni Registered for this Programme </h3>
-					<marquee behavior="scroll" direction="up" scrollamount="8" height="202" >
+					<marquee behavior="scroll" direction="up" scrollamount="8" height="510" >
 						<div class="marquee" >					
 							<ul class="list-group" data-spy="scroll" data-target=".navbar" data-offset="50" >
 								<li class="list-group-item prominent" id="1">Hardward Business School</li>
@@ -300,6 +300,10 @@ input[type=number]::-webkit-outer-spin-button {
 				<div id="home" class="tab-pane fade in active">
 					<img src="img/p.jpg" style="position:relative;" width="100%" height="100" class="img img-rounded" />
 					<br/><br/>
+                    <br>
+					<iframe class="all" id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" 
+					src="https://prezi.com/embed/-fsmajtmfbtn/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE1vbGxLeUtRdXkycVhRdXRFSWpYT1o1NlRPQitXOHFCK21KWUtLMThPWT0&amp;landing_sign=A8O0_dOvlPwENyI2JD4QhpECGMiTEXS_N5hYHvOVag0" width="100%" height="400" frameborder="0"></iframe>
+					<br><br>
 					<div class ="all">
 						The Student Alumni Mentorship programme was started in session 2010-11 by the Students’ Alumni Cell as an initiative to create a platform for the exchange of ideas and experience between the alumni and the current students of IIT Kharagpur.<br><br>
 						With an ocean of possibilities available, students often find it difficult to decide their way out into the future. There are lots of instances where students need  a mentor who can counsel and guide them through. The alumni can improve students' insight into various aspects of life.  Their journey and personal experiences can help the students and motivate them through this pivotal phase of life. Under this programme, we invite our alumni from across the world and from different fields to interact with the students and help them build their network and gain new perspective on the possibilities open to them after graduation.
