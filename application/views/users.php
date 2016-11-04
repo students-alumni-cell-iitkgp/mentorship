@@ -8,7 +8,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<title>Welcome <?php echo $name;?> </title>
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<!-- Generic page styles -->
-	<link rel="stylesheet" href="css/style.css">
 	<style type="text/css">
 		.marquee {
 			width: 100%;
@@ -16,7 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			padding: 20px 0px;
 		}
 			body {
-			background-image: url('/img/bg.jpg');
+			background-image: url('../../img/bg.jpg');
 		}
 		::selection { background-color: #E13300; color: white; }
 		::-moz-selection { background-color: #E13300; color: white; }
@@ -30,7 +29,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<img src="/img/hand.jpg" class="img img-rounded" height="40">
+				<img src="../../img/hand.jpg" class="img img-rounded" height="40">
 				
 				<ul class="nav navbar-nav navbar-right">
 
@@ -59,7 +58,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<br/>
 
 				<div style="">
-					<img src="/img/user.png" class="img img-rounded" style="position:relative;left:20px;" width="200" height="180" /><br/><br/>
+					<img src="../../img/user.png" class="img img-rounded" style="position:relative;left:20px;" width="200" height="180" /><br/><br/>
 					<div class="list-group" style="width:115%"><?php
 						$query = $this->db->get_where('contact', array('email' => $email));
 						$row=$query->row_array();		
@@ -371,26 +370,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</script>
 	<script>
 //proporcional speed counter (for responsive/fluid use)
-var widths = $('.marquee').width()
-var duration = widths * 56;
 
-$('.marquee').marquee({
-    //speed in milliseconds of the marquee
-    duration:5000, // for responsive/fluid use
-    //duration: 8000000, // for fixed container
-    //gap in pixels between the tickers
-    gap: $('.marquee').width(),
-    //time in milliseconds before the marquee will start animating
-    delayBeforeStart: 0,
-    //'left' or 'right'
-    direction: 'up',
-    //true or false - should the marquee be duplicated to show an effect of continues flow
-    duplicated: true
-});
 </script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script type='text/javascript' src='http://cdn.jsdelivr.net/jquery.marquee/1.3.1/jquery.marquee.min.js'></script>
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-<script src="js/dw_con_scroller.js" type="text/javascript"></script>
 </body>
 </html>

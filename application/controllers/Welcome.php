@@ -19,7 +19,8 @@ class Welcome extends CI_Controller {
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
-	{
+	{header('Location:http://localhost/mentorship/index.php/welcome/one');}
+	 public function one(){
 
 	    if ($this->session->userdata('is_logged_in')){
 
@@ -46,7 +47,8 @@ class Welcome extends CI_Controller {
             $this->load->model('member_area');
 
         }
-	else $this->load->view('welcome_message');
+	else {
+		$this->load->view('welcome_message');}
 	}
 	
 	public function users() {
@@ -132,10 +134,14 @@ if(!isset($_POST['logout'])){
                 );
                 $this->session->set_userdata($data);
 			}
-			else header('Location:index/?err=pass');
+			else { echo "<script>window.alert('Incorrect Username or Password');</script>";
+				$this->load->view('welcome_message');
+		}
 
 		}
-		else header('Location:index/?err=user');
+		else { echo "<script>window.alert('Incorrect Username or Password');</script>";
+			
+	}
 	
 
 	}
