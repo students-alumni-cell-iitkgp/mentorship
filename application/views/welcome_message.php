@@ -4,7 +4,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+<<<<<<< HEAD
 	<link rel="icon" href="../../img/p.png">
+=======
+	<link rel="icon" href="img/p.png">
+>>>>>>> df82bbce266cde83d235ceb65e02f0950ddeccb4
 	<title>Welcome to Mentorship-Portal</title>
 	<link rel='stylesheet' href='../../css/social_icon.css'>
 
@@ -155,22 +159,38 @@ input[type=number]::-webkit-outer-spin-button {
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox" >
     <div class="item active">
+<<<<<<< HEAD
       <img src="../../img/mentorslider.jpg" style="width: 100vw; height: 450px;">
+=======
+      <img src="img/mentorslider.jpg" style="width: 100vw; height: 450px;">
+>>>>>>> df82bbce266cde83d235ceb65e02f0950ddeccb4
      
     </div>
 
     <div class="item">
+<<<<<<< HEAD
       <img src="../../img/mentorslidertwo.jpg" style="width: 100vw; height: 450px;">
+=======
+      <img src="img/mentorslidertwo.jpg" style="width: 100vw; height: 450px;">
+>>>>>>> df82bbce266cde83d235ceb65e02f0950ddeccb4
       
     </div>
 
     <div class="item">
+<<<<<<< HEAD
       <img src="../../img/mentorshipsliderthree.png" style="width: 100vw; height: 450px;">
+=======
+      <img src="img/mentorshipsliderthree.png" style="width: 100vw; height: 450px;">
+>>>>>>> df82bbce266cde83d235ceb65e02f0950ddeccb4
       
     </div>
 
     <div class="item">
+<<<<<<< HEAD
       <img src="../../img/mentorshipsliderfour.jpg"  style="width: 100vw; height: 450px;">
+=======
+      <img src="img/mentorshipsliderfour.jpg"  style="width: 100vw; height: 450px;">
+>>>>>>> df82bbce266cde83d235ceb65e02f0950ddeccb4
       
     </div>
   </div>
@@ -339,7 +359,11 @@ input[type=number]::-webkit-outer-spin-button {
 								</p>
 							</div>
 							
+<<<<<<< HEAD
 							<div class="col-md-4" >	<br><br><img src="../../img/t2.jpg" class="img img-circle" width="200px" height="200px">
+=======
+							<div class="col-md-4" >	<br><br><img src="img/t2.jpg" class="img img-circle" width="200px" height="200px">
+>>>>>>> df82bbce266cde83d235ceb65e02f0950ddeccb4
 								<br><br>	<b style="position:relative;left:60px;">Ankit Gupta</b>
 							</div>
 						</div><hr>
@@ -353,7 +377,11 @@ input[type=number]::-webkit-outer-spin-button {
 									
 								</p></div>
 								
+<<<<<<< HEAD
 								<div class="col-md-4"><br><img src="../../img/t3.jpg" class="img img-circle"  width="200px" height="200px"><br><br><b style="position:relative;left:60px;">Pranshu Agrawal</b></div>
+=======
+								<div class="col-md-4"><br><img src="img/t3.jpg" class="img img-circle"  width="200px" height="200px"><br><br><b style="position:relative;left:60px;">Pranshu Agrawal</b></div>
+>>>>>>> df82bbce266cde83d235ceb65e02f0950ddeccb4
 							</div><hr>
 							<div class="row">
 								<div class="col-md-8">
@@ -367,7 +395,11 @@ input[type=number]::-webkit-outer-spin-button {
 									</p>
 								</div>
 								
+<<<<<<< HEAD
 								<div class="col-md-4"><img src="../../img/t1.jpg" class="img img-circle" width="200px" height="200px"><br><br><b style="position:relative;left:60px;">Gobind Singh</b></div>
+=======
+								<div class="col-md-4"><img src="img/t1.jpg" class="img img-circle" width="200px" height="200px"><br><br><b style="position:relative;left:60px;">Gobind Singh</b></div>
+>>>>>>> df82bbce266cde83d235ceb65e02f0950ddeccb4
 							</p>
 						</div>
 					</div>
