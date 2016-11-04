@@ -19,12 +19,8 @@ class Welcome extends CI_Controller {
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
-<<<<<<< HEAD
 	{header('Location:http://localhost/mentorship/index.php/welcome/one');}
 	 public function one(){
-=======
-	{
->>>>>>> df82bbce266cde83d235ceb65e02f0950ddeccb4
 
 	    if ($this->session->userdata('is_logged_in')){
 
@@ -51,12 +47,8 @@ class Welcome extends CI_Controller {
             $this->load->model('member_area');
 
         }
-<<<<<<< HEAD
 	else {
 		$this->load->view('welcome_message');}
-=======
-	else $this->load->view('welcome_message');
->>>>>>> df82bbce266cde83d235ceb65e02f0950ddeccb4
 	}
 	
 	public function users() {
