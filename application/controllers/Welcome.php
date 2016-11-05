@@ -19,12 +19,8 @@ class Welcome extends CI_Controller {
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
-<<<<<<< HEAD
 	{header('Location:http://mentorship.iitkgp.ernet.in/index.php/welcome/one');}
-=======
-	{header('Location:http://localhost/mentorship/index.php/welcome/one');}
->>>>>>> 15975b45cd91f65fa0d67b7611bb2e2f54855960
-	 public function one(){
+		 public function one(){
 
 	    if ($this->session->userdata('is_logged_in')){
 
