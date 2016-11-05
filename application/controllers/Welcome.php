@@ -24,35 +24,44 @@ class Welcome extends CI_Controller {
 	    if ($this->session->userdata('is_logged_in')){
 
             $this->load->database();
-            if(!isset($_POST['logout'])){
+
                 $email=$this->session->userdata('email');
                 //var $query1,$query2;
                 $query = $this->db->get_where('users', array('email' => $email));
                 $query1 = $this->db->get_where('contact', array('email' => $email));
                 $query2 = $this->db->get_where('preferences', array('email' => $email));
                 $row=$query->row_array();
-                if ($query->num_rows()>0) {
-                    $row = $query->row_array();	$row1 = $query1->row_array();
+                $row = $query->row_array();	$row1 = $query1->row_array();
+                 $this->load->view('users', $row );
+                 $this->load->model('member_area');
+                 if ($this->input->post('logout')){
 
-                        $this->load->view('users', $row );
-                }
-                else header('Location:index/?err=user');
-
+                     $this->session->sess_destroy();
+                     $this->load->view('welcome_message');
 
             }
-
-            else header('Location:index');
-
-            $this->load->model('member_area');
-
         }
+
 	else $this->load->view('welcome_message');
 	}
 	
 	public function users() {
 		$this->load->database();
 		$this->load->model('insert_model');
-		$data = array(
+
+        //for CSV file of questions
+         $name= $this->input->post('name');
+         $roll = $this->input->post('roll');
+         $questions2=$this->input->post('q2');
+         $questions1=$this->input->post('q1');
+        $list = ".$name.,.$roll.,.$questions1.,.$questions2.";
+        $file = fopen("acell_questions.csv","a");
+        fputcsv($file,explode(',',$list));
+        fclose($file);
+
+        // end for csv file
+
+        $data = array(
 			'name' => $this->input->post('name'),
 			'email' => $this->input->post('email'),
 			'password' => $this->input->post('password'),
@@ -93,6 +102,7 @@ class Welcome extends CI_Controller {
 				'email' => $this->input->post('email') );
 
 		}
+
 
 
 
@@ -148,6 +158,7 @@ if(!isset($_POST['logout'])){
     if (isset($_POST['logout'])){
 
         $this->session->sess_destroy();
+       $this->index();
     }
 
 }
