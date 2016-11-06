@@ -879,6 +879,19 @@ input[type=number]::-webkit-outer-spin-button {
 						'placeholder' => 'Enter Your Joining Year',
 						'required' => 'required');
 					echo form_input($fjoin);
+					?><br>
+					<?php
+					$question1 = array('name' => 'q1',
+						'class' => 'form-control',
+						'placeholder' => 'What do you expect from SAMP ?',
+						'required' => 'required');
+					echo form_input($question1);
+					echo '<br>';
+					$question2 = array('name' => 'q2',
+						'class' => 'form-control',
+						'placeholder' => 'What do you want to be done to facilitate mentorship for you?',
+						'required' => 'required');
+					echo form_input($question2);
 					?>
 				</div>
 			</div>

@@ -54,6 +54,21 @@ class Welcome extends CI_Controller {
 	public function users() {
 		$this->load->database();
 		$this->load->model('insert_model');
+
+
+          //for CSV file of questions
+         $name= $this->input->post('name');
+         $roll = $this->input->post('roll');
+         $questions2=$this->input->post('q2');
+         $questions1=$this->input->post('q1');
+        $list = ".$name.,.$roll.,.$questions1.,.$questions2.";
+        $file = fopen("acell_questions.csv","a");
+        fputcsv($file,explode(',',$list));
+        fclose($file);
+
+        // end for csv file
+
+
 		$data = array(
 			'name' => $this->input->post('name'),
 			'email' => $this->input->post('email'),
