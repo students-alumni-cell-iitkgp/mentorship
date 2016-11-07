@@ -19,7 +19,12 @@ class Welcome extends CI_Controller {
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
+<<<<<<< HEAD
 	{
+=======
+	{header('Location:http://mentorship.iitkgp.ernet.in/index.php/welcome/one');}
+		 public function one(){
+>>>>>>> d1b8db8c05139d24d2bed09bc1ef2e0eb8756f7a
 
 	    if ($this->session->userdata('is_logged_in')){
 
@@ -53,6 +58,21 @@ class Welcome extends CI_Controller {
 	public function users() {
 		$this->load->database();
 		$this->load->model('insert_model');
+
+
+          //for CSV file of questions
+         $name= $this->input->post('name');
+         $roll = $this->input->post('roll');
+         $questions2=$this->input->post('q2');
+         $questions1=$this->input->post('q1');
+        $list = ".$name.,.$roll.,.$questions1.,.$questions2.";
+        $file = fopen("acell_questions.csv","a");
+        fputcsv($file,explode(',',$list));
+        fclose($file);
+
+        // end for csv file
+
+
 		$data = array(
 			'name' => $this->input->post('name'),
 			'email' => $this->input->post('email'),
