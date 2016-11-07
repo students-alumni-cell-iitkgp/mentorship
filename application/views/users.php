@@ -337,7 +337,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	if (isset($_POST['logout'])) {
 					# code...
 		session_destroy();
-		header('location:index');
+		header('location:http://www.mentorship.iitkgp.ernet.in');
 	}
 	?>
 	<?php 
