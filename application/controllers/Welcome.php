@@ -19,9 +19,7 @@ class Welcome extends CI_Controller {
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
-	{header('Location:http://mentorship.iitkgp.ernet.in/index.php/welcome/one');}
-		 public function one(){
-
+	{
 	    if ($this->session->userdata('is_logged_in')){
 
             $this->load->database();
@@ -149,19 +147,20 @@ if(!isset($_POST['logout'])){
                 );
                 $this->session->set_userdata($data);
 			}
-			else { echo "<script>window.alert('Incorrect Username or Password');</script>";
-				$this->load->view('welcome_message');
+			else { 
+				header("Location:http://www.mentorship.iitkgp.ernet.in/?err=pass");
 		}
 
 		}
-		else { echo "<script>window.alert('Incorrect Username or Password');</script>";
+		else {
+		header("Location:http://www.mentorship.iitkgp.ernet.in/?err=user");
 			
 	}
 	
 
 	}
 	
-	else header('Location:index');
+	else header('Location:http://www.mentorship.iitkgp.ernet.in');
 
 	$this->load->model('member_area');
 	//$this->load->view('member_area',$_POST);
