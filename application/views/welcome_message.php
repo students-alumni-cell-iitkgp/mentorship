@@ -511,7 +511,7 @@
  												•	Approach the mentoring relationship with an open mind, professionalism and respect 
  											</li>
  										</div>
- 										<footer>Be receptive to suggestions and feedback</footer>
+ 										<footer>Be receptive to suggestions and feedback </footer>
  									</div>
  								</div><!--container21 ends -->
  
@@ -828,7 +828,7 @@
  					<?php
  					$fcg = array('name' => 'cgpa' ,
  						'class' => 'form-control',
- 						'type' => 'number',
+ 						'type' => 'decimal',
  						'placeholder' => 'Enter Your Cgpa',
  						'required' => 'required' );
  					echo form_input($fcg);
@@ -896,10 +896,10 @@
  					?>
  				</div>
  			</div>
- 			<div class="form-group">
- 				<div class="col-sm-12">
- 					<h4>In which field do you want to  be Mentored ?</h4>
- 					<select name='pref1' class='form-control'>
+ 			<div class="form-group" >
+ 				<div class="col-sm-12" >
+ 					<h4>In which field do you want to  be Mentored?</h4>
+ 					<select name='pref1' class='form-control' required="value>0">
  						<option value='-1'>Choose your 1st Preference</option>
  						<option value='1'>Aerospace Engineering</option>
  						<option value='2'>Agricultural & Food Engineering</option>
