@@ -312,6 +312,7 @@ input[type=number]::-webkit-outer-spin-button {
 					  <iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""
 					   src="https://prezi.com/embed/4zvbjzz_cb-w/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=1&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE1vbGxLeUtRdXkycVhRdXRFSWpEMFgxaDFqbVU3R256Q051MTVVNkxmOD0&amp;landing_sign=10ozq-9rCOuctWoHR42bTHCfMKCM7iXkyQfYmXAcPPs" 
 					   width="100%" height="400" frameborder="0"></iframe>
+					   </div>
 				<br><br>
 			</div>		
 				<!-- Add tabs here-->
