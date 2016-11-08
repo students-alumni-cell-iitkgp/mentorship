@@ -899,7 +899,7 @@
  			<div class="form-group" >
  				<div class="col-sm-12" >
  					<h4>In which field do you want to  be Mentored?</h4>
- 					<select name='pref1' class='form-control' required="value>0">
+ 					<select name='pref1' class='form-control'>
  						<option value='-1'>Choose your 1st Preference</option>
  						<option value='1'>Aerospace Engineering</option>
  						<option value='2'>Agricultural & Food Engineering</option>
