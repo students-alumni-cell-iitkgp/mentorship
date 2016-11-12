@@ -1,8 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 class Welcome extends CI_Controller {
-
 	/**
 	 * Index Page for this controller.
 	 *
@@ -21,7 +19,6 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 	    if ($this->session->userdata('is_logged_in')){
-
             $this->load->database();
             if(!isset($_POST['logout'])){
                 $email=$this->session->userdata('email');
@@ -32,28 +29,23 @@ class Welcome extends CI_Controller {
                 $row=$query->row_array();
                 if ($query->num_rows()>0) {
                     $row = $query->row_array();	$row1 = $query1->row_array();
-
                         $this->load->view('users', $row );
                 }
-                else header('Location:index/?err=user');
-
-
+                else {session_destroy(); header('Location:http://www.mentorship.iitkgp.ernet.in/?err=user');
             }
-
-            else header('Location:index');
-
-            $this->load->model('member_area');
-
+            
         }
-	else {
+        else if(isset($_POST['logout'])) {session_destroy();
+        	header('Location:http://www.mentorship.iitkgp.ernet.in');
+        } }
+	else { 
 		$this->load->view('welcome_message');}
-	}
+	
+}
 	
 	public function users() {
 		$this->load->database();
 		$this->load->model('insert_model');
-
-
           //for CSV file of questions
          $name= $this->input->post('name');
          $roll = $this->input->post('roll');
@@ -63,10 +55,7 @@ class Welcome extends CI_Controller {
         $file = fopen("acell_questions.csv","a");
         fputcsv($file,explode(',',$list));
         fclose($file);
-
         // end for csv file
-
-
 		$data = array(
 			'name' => $this->input->post('name'),
 			'email' => $this->input->post('email'),
@@ -90,15 +79,12 @@ class Welcome extends CI_Controller {
 			'pref2' => $this->input->post('pref2'),
 			'pref3' => $this->input->post('pref3'),
 			'email' => $this->input->post('email') );
-
-
 		if($this->input->post('pref1')==''){
 			$data2 = array(
 				'pref1' => $this->input->post('pref11'),
 				'pref2' => $this->input->post('pref22'),
 				'pref3' => $this->input->post('pref33'),
 				'email' => $this->input->post('email') );
-
 		}
 		else{
 			$data2 = array(
@@ -106,20 +92,9 @@ class Welcome extends CI_Controller {
 				'pref2' => $this->input->post('pref2'),
 				'pref3' => $this->input->post('pref3'),
 				'email' => $this->input->post('email') );
-
 		}
-
-
-
-
-
 		$this->insert_model->form_insert($data,$data1,$data2);
-
-
-
-
 		$this->load->view('home', $_POST);
-
 	}
 public function contact()
 {
@@ -128,7 +103,6 @@ public function contact()
 	
 public function member_area()
 {
-
 	$this->load->database();
 if(!isset($_POST['logout'])){
 	$email=$_POST['eid'];
@@ -150,40 +124,29 @@ if(!isset($_POST['logout'])){
 			else { 
 				header("Location:http://www.mentorship.iitkgp.ernet.in/?err=pass");
 		}
-
 		}
 		else {
 		header("Location:http://www.mentorship.iitkgp.ernet.in/?err=user");
 			
 	}
 	
-
 	}
 	
 	else header('Location:http://www.mentorship.iitkgp.ernet.in');
-
 	$this->load->model('member_area');
 	//$this->load->view('member_area',$_POST);
-
     if (isset($_POST['logout'])){
-
         $this->session->sess_destroy();
     }
-
 }
-
-
-
 public function validate_credentials()
 {			
 	$this->load->database();
 	//$this->form_validation->set_rules('password', 'Password', 'required|min_length[8]|max_length[20]');
 	$this->load->model('member_area');
 	$query=$this->membership_model->validate();
-
 	if($query)
 	{
-
 		$data=array(
 			'email'=>$this->input->post('eid'),
 			'is_logged_in'=>true
@@ -196,7 +159,6 @@ public function validate_credentials()
 	{
 		$this->index();
 	}
-
 }
 public function member_area_updated()
 {
@@ -230,5 +192,4 @@ public function blog()
 {
 	$this->load->view('blog');
 }
-
 }
