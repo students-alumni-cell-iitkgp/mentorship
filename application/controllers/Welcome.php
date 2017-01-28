@@ -120,6 +120,7 @@ if(!isset($_POST['logout'])){
                 );
                 $this->session->set_userdata($data);
                 $this->load->view('users', $row );
+                
                 }
 			else { 
 				header("Location:http://www.mentorship.iitkgp.ernet.in/?err=pass");
@@ -132,7 +133,7 @@ if(!isset($_POST['logout'])){
 	
 	}
 	
-	else header('Location:www.mentorship.iitkgp.ernet.in');
+	else header('Location:http://www.mentorship.iitkgp.ernet.in');
 	$this->load->model('member_area');
 	//$this->load->view('member_area',$_POST);
     if (isset($_POST['logout'])){
