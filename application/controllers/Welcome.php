@@ -119,8 +119,9 @@ if(!isset($_POST['logout'])){
                     'is_logged_in'=>true
                 );
                 $this->session->set_userdata($data);
-                header("Location:http://www.mentorship.iitkgp.ernet.in");
-			}
+                $this->load->view('users', $row );
+                
+                }
 			else { 
 				header("Location:http://www.mentorship.iitkgp.ernet.in/?err=pass");
 		}
