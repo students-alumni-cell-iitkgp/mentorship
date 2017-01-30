@@ -189,7 +189,7 @@
  				'method' => 'post',
  				'role' => 'form',
  				);		
- 			echo form_open('index.php/welcome/member_area',$for);
+ 			echo form_open('user',$for);
  			?>
  			<div class="col-md-3">
  				<?php
@@ -298,7 +298,7 @@
  			<br>
  			<div class="tab-content" style="width:100%">
  				<div id="home" class="tab-pane fade in active">
- 					<img src="img/p.jpg" style="position:relative;" width="100%" height="100" class="img img-rounded" />
+ 					<img src="img/mentorship.jpg" style="position:relative;" width="100%" height="100" class="img img-rounded" />
  					<br/><br/>
                   
  					
