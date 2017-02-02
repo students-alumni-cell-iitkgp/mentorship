@@ -131,7 +131,6 @@
  	</style>
  </head>
  <body>
-<<<<<<< HEAD
 
   <div class="navbar" style="padding: 15px; background-color:#babfc6; margin-bottom: 0px;">
     <div class="row">
@@ -172,9 +171,6 @@
   </div>
 </div>
 
-=======
- 	
->>>>>>> 302b0bd6355205ad153875d35768f477857db7ec
  	<div id="bg">
  
  	<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -192,7 +188,6 @@
        <img src="img/mentorslider.jpg" style="width: 100vw; height: 450px;">
       
      </div>
-<<<<<<< HEAD
  
      <div class="item">
        <img src="img/mentorslidertwo.jpg" style="width: 100vw; height: 450px;">
@@ -399,273 +394,7 @@
  											
  										</div><!--list-group-item ends -->
  
-=======
- 
-     <div class="item">
-       <img src="img/mentorslidertwo.jpg" style="width: 100vw; height: 450px;">
-       
-     </div>
- 
-     <div class="item">
-       <img src="img/mentorshipsliderthree.png" style="width: 100vw; height: 450px;">
-       
-     </div>
- 
-     <div class="item">
-       <img src="img/mentorshipsliderfour.jpg"  style="width: 100vw; height: 450px;">
-       
-     </div>
-   </div>
- 
- </div>
- 		<div id="nav">
- 
- 		</div>
- 
- 		<div class="row" id="box" style="width:100%;float:right;margin-top:0px">
- 			<div class="col-md-4"></div>
- 			<?php 
- 			$this->load->helper('form');
- 			$for=array('class' => 'form-horizontal',
- 
- 				'method' => 'post',
- 				'role' => 'form',
- 				);		
- 			echo form_open('user',$for);
- 			?>
- 			<div class="col-md-3">
- 				<?php
- 				$email1 = array('name' => 'eid' ,
- 					'type' => 'email',
- 					'class' => 'form-control',
- 					'placeholder' => 'Enter Your Email',
- 					'required' => 'required' );
- 				echo form_input($email1);
- 				?>
- 			</div>
- 			<div class="col-md-3">
- 				<?php
- 				$pwd = array('name' => 'pass' ,
- 					'type' => 'password',
- 					'class' => 'form-control',
- 					'placeholder' => 'Enter Your Password',
- 					'required' => 'required' );
- 				echo form_input($pwd);
- 				?>
- 			</div>
- 			<div class="col-md-2">
- 				<button type="submit" class="btn btn-success">Log In</button>
- 			</form>
- 		</div>
- 	</div>
- </div>
- <br>
- <div class="container-fluid">
- 	<!--h2 style="position:relative;left:20px;">Mentorship Portal  </h2-->
- 	<hr>
- 	<div class="row">
- 		<div class="col-md-3" id="box2">
- 			<br>
- 			<!--h2 style="text-align:center;">Register Here</h2-->
- 			<button type="button" class="btn btn-primary btn-lg" name="add" data-toggle="modal" data-target="#registermentor">
- 				I want to be a Mentor
- 			</button>
- 			 <hr>
- 			<button type="button" class="btn btn-primary btn-lg" name="add" data-toggle="modal" data-target="#registerstudent">
- 				I want to be a Mentee
- 			</button> <hr>
- 		 
- 					<h3 class="center" style="background-color:lightgrey;padding:10px;border-radius:8px; margin-top: 0px;"> Prominent Alumni Registered for this Programme </h3>
- 					<marquee behavior="scroll" direction="up" scrollamount="8" height="510" >
- 						<div class="marquee" >					
- 							<ul class="list-group" data-spy="scroll" data-target=".navbar" data-offset="50" >
- 								<li class="list-group-item prominent" id="1">Hardward Business School</li>
- 								<li class="list-group-item prominent" id="4">Bank fo America</li>
- 								<li class="list-group-item prominent" id="4">RBL</li>
- 								<li class="list-group-item prominent" id="4">Citi Bank</li>
- 								<li class="list-group-item prominent" id="10">McKinsey & Co</li>
- 								<li class="list-group-item prominent" id="14">Credit Suisse</li>
- 								<li class="list-group-item prominent" id="4">JP Morgan Chase</li>
- 								<li class="list-group-item prominent" id="4">Standard Chartered Bank</li>
- 								<li class="list-group-item prominent" id="4">Deutsche Bank</li>
- 								<li class="list-group-item prominent" id="20">Hawkins Cookers Limited</li>
- 								<li class="list-group-item prominent" id="10">Mindtree Limited</li>
- 								<li class="list-group-item prominent" id="20">Lenovo</li>
- 								<li class="list-group-item prominent" id="10">Delotti Consultancy SEA</li>
- 								<li class="list-group-item prominent" id="18">Amazon</li>
- 								<li class="list-group-item prominent" id="9">Hewelett Packard</li>
- 								<li class="list-group-item prominent" id="10">Cognizant Technology</li>
- 								<li class="list-group-item prominent" id="10">Infosys Limited</li>
- 								<li class="list-group-item prominent" id="9">IBM</li>
- 								<li class="list-group-item prominent" id="14">Stanford Gradute School of Business and Sustainable Growth Initiative</li>
- 								<li class="list-group-item prominent" id="10">The Boston Consulting Group</li>
- 								<li class="list-group-item prominent" id="18">Price Water House</li>
- 								<li class="list-group-item prominent" id="14">PwC</li>
- 								<li class="list-group-item prominent" id="10">Capgemini</li>
- 								<li class="list-group-item prominent" id="10">Miebach Cousulting</li>
- 								<li class="list-group-item prominent" id="14">KPMG</li>
- 								<li class="list-group-item prominent" id="10">Schlumbreger</li>
- 								<li class="list-group-item prominent" id="22">Sheil Oil Company</li>
- 								<li class="list-group-item prominent" id="22">BP</li>
- 								<li class="list-group-item prominent" id="22">Essar Oil Limited</li>
- 								<li class="list-group-item prominent" id="15">Cairn India Limited</li>
- 								<li class="list-group-item prominent" id="13">Reliance Industries</li>
- 								<li class="list-group-item prominent" id="15">GE Oil & Gas</li>
- 								<li class="list-group-item prominent" id="15">Occidental Petroleum</li>
- 								<li class="list-group-item prominent" id="22">Indain Oil Corporation Limited</li>
- 								<li class="list-group-item prominent" id="15">ONGC</li>
- 								<li class="list-group-item prominent" id="all">MIT</li>
- 								<li class="list-group-item prominent" id="all">Texas A & M</li>
- 								<li class="list-group-item prominent" id="5">Wockhardt Ltd</li>
- 								<li class="list-group-item prominent" id="9">Microsoft Research</li>
- 								<li class="list-group-item prominent" id="10">Innovation Lab, Tata Consulantcy Services</li>
- 								<li class="list-group-item prominent" id="all">Norwegian Unversity of Science and Technology</li>
- 								<li class="list-group-item prominent" id="all">Georgia Institute of Technology</li>
- 								<li class="list-group-item prominent" id="all">GFZ Potsdam</li>
- 								<li class="list-group-item prominent" id="all">Swansea University</li>
- 								<li class="list-group-item prominent" id="5">Dalichi Sankyo India Pharma Limited</li>
- 								<li class="list-group-item prominent" id="all">University of Cincinnati</li>
- 							</ul>
- 						</div>
- 					</marquee>
- 				</div>
- 		<div class="col-md-7" style="position:relative;left:25px;">
- 			<ul class="nav nav-tabs">
- 				<li class="active"><a data-toggle="tab" href="#home">About Mentorship Program</a></li>
- 				<li><a data-toggle="tab" href="#menu1">Why choose this program</a></li>
- 				<li><a data-toggle="tab" href="#menu2">Testimonials</a></li>
- 				<li><a data-toggle="tab" href="#menu3">FAQs</a></li>
- 				<li><a data-toggle="tab" href="#menu4">Contact Us</a></li>
- 			</ul>
- 			<br>
- 			<div class="tab-content" style="width:100%">
- 				<div id="home" class="tab-pane fade in active">
- 					<img src="img/mentorship.jpg" style="position:relative;" width="100%" height="100" class="img img-rounded" />
- 					<br/><br/>
-                  
- 					
- 					<div class ="all">
- 						The Student Alumni Mentorship programme was started in session 2010-11 by the Students’ Alumni Cell as an initiative to create a platform for the exchange of ideas and experience between the alumni and the current students of IIT Kharagpur.<br><br>
- 						With an ocean of possibilities available, students often find it difficult to decide their way out into the future. There are lots of instances where students need  a mentor who can counsel and guide them through. The alumni can improve students' insight into various aspects of life.  Their journey and personal experiences can help the students and motivate them through this pivotal phase of life. Under this programme, we invite our alumni from across the world and from different fields to interact with the students and help them build their network and gain new perspective on the possibilities open to them after graduation.
- 					</div>
-				
-				 
- 					  <iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""
- 					   src="https://prezi.com/embed/4zvbjzz_cb-w/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=1&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE1vbGxLeUtRdXkycVhRdXRFSWpEMFgxaDFqbVU3R256Q051MTVVNkxmOD0&amp;landing_sign=10ozq-9rCOuctWoHR42bTHCfMKCM7iXkyQfYmXAcPPs" 
- 					   width="100%" height="400" frameborder="0"></iframe> </div>
- 				<!-- Add tabs here-->
- 				<div id="menu1" class="tab-pane fade">
- 					<div class ="al">
- 						<h3  style="text-align:center;background-color:	#7FFFD4;color:white;border-radius:8px;">For Mentors</h3>
- 						<p>As a successful member of the IIT Kharagpur alumni community, you have the power to inspire, motivate, and support IIT KGP students. Your knowledge, experience, and insight will help students open their eyes to the opportunities and challenges they will face after graduation.
- 
- 							When you serve as a mentor, you form meaningful, rewarding relationships that prepare students to be better employees and leaders, inspire them to stay connected with IIT Kharagpur, and motivate them to support the next generation of students. Mentors help perpetuate, grow, and strengthen IIT Kharagpur’s global alumni network.
- 						</p>
- 						<h3 style="text-align:center;background-color:	#7FFFD4;color:white;border-radius:8px;">For Mentees</h3>
- 						<p>Mentees can expect to receive guidance to help them navigate various career options, learn invaluable skills for professional development and make new contacts expand their network.
- 
- 							Mentors and students form supportive relationships built on the shared experience of the KGP way of life, and connect one-on-one in a relaxed, informal way. It’s a valuable relationship that serves as an important complement to your classroom and action learning experiences, and makes for a richer KGP experience.
- 						</p>
- 					</div>
- 				</div>
- 				<div id="menu2" class="tab-pane fade">
- 					<div class ="al">
- 						<div class="row" >
- 							<div class="col-md-8" style="background-color:;">
- 								<img src="img/a.png" alt="" id="quotes" />
- 
- 								<p>    Mentorship is crucial for any individual whether a student or professional, and its importance is essential especially during the formative years in college. I signed up for this program with the objective to gain perspective and seek help from our experienced and extremely friendly alumni. His guidance helped me think and understand about the outside world, gain industry knowledge and valuable fundas which helped me perform well in college and outside. They know what is valued more when it comes to the professional world, hence I always prioritized my mentors advice - specifically maintaining a good CGPA. Interacting and keeping in touch with my mentor also helped improving my networking skills and connecting to more people.   
- 									<br>
- 									<img src="img/b.png" alt="" id="quotes" class="pull-right" />
- 
- 									
- 								</p>
- 							</div>
- 							
- 							<div class="col-md-4" >	<br><br><img src="img/t2.jpg" class="img img-circle" width="200px" height="200px">
- 								<br><br>	<b style="position:relative;left:60px;">Ankit Gupta</b>
- 							</div>
- 						</div><hr>
- 						<div class="row">
- 							<div class="col-md-8">
- 								<img src="img/a.png" alt="" id="quotes" />
- 								<p>      The Alumni Student mentorship program is a nice initiative by the Students’ Alumni Cell. In today’s time a direction and support from an esteemed mentor can go a long way in helping someone. It was a great experience for me as I got to learn a lot from my mentor who provided me with insight into the world after college as well as their experience as a student and in the professional sphere. Getting mentorship from an Alumni is a great thing as they can provide better help as they have been a part of the same institution as you."
- 									<br>
- 									<img src="img/b.png" alt="" id="quotes" class="pull-right" />
- 
- 									
- 								</p></div>
- 								
- 								<div class="col-md-4"><br><img src="img/t3.jpg" class="img img-circle"  width="200px" height="200px"><br><br><b style="position:relative;left:60px;">Pranshu Agrawal</b></div>
- 							</div><hr>
- 							<div class="row">
- 								<div class="col-md-8">
- 									<img src="img/a.png" alt="" id="quotes" />
- 									<p>The Student Alumni Mentorship Programme is probably one of the best
- 										initiatives taken by our institution in recent years. Through my
- 										association with it, I can only say that although the path was clear for
- 										me, it was dark. My mentor came in the form a torchlight.
- 										<br>
- 										<img src="img/b.png" alt="" id="quotes" class="pull-right" />	
- 									</p>
- 								</div>
- 								
- 								<div class="col-md-4"><img src="img/t1.jpg" class="img img-circle" width="200px" height="200px"><br><br><b style="position:relative;left:60px;">Gobind Singh</b></div>
- 							</p>
- 						</div>
- 					</div>
- 				</div>
- 				<div id="menu3" class="tab-pane fade">
- 					<div class="abc">
- 						<div class="jumbotron" >
- 							<!-- <h1>StaticPages#testimonial</h1> -->
- 							<h1 style="color:white;">Frequently Asked Questions</h1>
- 							<p style="opacity:.75;">Here are questions people who are new to Mentorship Programme often have. We're here to help you.</p>
- 						</div>
- 
- 						<div class="row">
- 							<div class="col-md-6">
- 								<div class="">
- 									<a href="#collapseOne" data-toggle="collapse" aria-expanded="false" aria-controls="collapseOne">
- 										Who is an Alumni Mentor?
- 									</a>
- 
- 									<hr style="color:black;opacity:0.8;">
- 
- 									<div class="collapse well" id="collapseOne">
- 										An Alumni Mentor is a guide, friend and resource who shares her/his  KGP experience to help pave the way for students to succeed at KGP and beyond. A KGP Alumni Mentor derives satisfaction from helping KGP students fulfil their dreams.<br>
- 									</div>
- 								</div>
- 
- 								<div class="">
- 									<a href="#collapseTwo" data-toggle="collapse" aria-controls="collapseTwo" aria-expanded="false">
- 										How Will I Benefit as a Mentor?
- 									</a>
- 
- 									<hr>
-              
- 
- 									<div class="well collapse" id="collapseTwo">
- 										We believe that mentoring will be a positive and enriching experience for you. Specifically,we hope you will:<br>
-                                         <br>
-                                         <div class="list-group">
- 											<li class="list-group-item">
- 												•	Refine your coaching and mentoring skills.
- 											</li>
- 											<li class="list-group-item">
- 												•	Develop meaningful connections with students. 
- 											</li>
- 											<li class="list-group-item">
- 												•	Learn about the KGP of today and the next generation.
- 											</li>
- 											<li class="list-group-item">
- 												•	Experience a reconnection with your Alma Mater. 
- 											</li>
- 											
- 										</div><!--list-group-item ends -->
- 
->>>>>>> 302b0bd6355205ad153875d35768f477857db7ec
-                                      </div>
+                                     </div>
  								</div><!--Container12 Ends -->
  
  								<div class="">
@@ -811,27 +540,12 @@
  									</div>
  								</div><!--container24 ends -->
  							</div><!--col-md-6 ends -->
-<<<<<<< HEAD
  						</div> <hr>
  
  				<h3>Contact Us</h3>
  				
  	<div align="center">
-=======
- 						</div>
- 
- 					</div>
- 				</div>
- 				<div id="menu4" class="tab-pane fade">
- 					<div class ="al">
- 						<div class="">
- 	<!-- <div class="jumbotron">
- 		<h1>StaticPages#contact</h1>
- 		<p>Find me in app/views/static_pages/contact.html.erb</p>
- 	</div> -->
- 
- 	<div class="jumbotron" align="center">
->>>>>>> 302b0bd6355205ad153875d35768f477857db7ec
+
  		<h2>Students' Alumni Cell</h2>
  		<h3>Office of Alumni Affairs & International Relations</h3>
  		<p>Indian Institute of Technology, Kharagpur</p>
@@ -841,24 +555,16 @@
  		<!-- <p>Email: mentorship@adm.iitkgp.ernet.in</p> -->
  		<p>In case of any suggestions or query please feel free to write to us at <a href="mailto: mentorship@adm.iitkgp.ernet.in">mentorship@adm.iitkgp.ernet.in</a></p>
  	</div>
-<<<<<<< HEAD
           <a href="http://www.sac.iitkgp.ac.in/team.php" target="_blank" class="btn btn-success btn-block">
  									View Complete Team
  								</a>
  							
-=======
- 
- 	<div class="" style="text-align:center;">
- 								<a href="http://www.sac.iitkgp.ac.in/team.php" target="_blank" class="btn btn-success btn-block">
- 									View Complete Team
- 								</a>
- 							</div>
->>>>>>> 302b0bd6355205ad153875d35768f477857db7ec
+
  							<br/>
  							
  							<div class="row">
  
-<<<<<<< HEAD
+
  								<div class="col-md-4" style="font:bold 15px Calibri; text-align:center">
  									Vaibhav Chauhan<br>vaibhavchauhan612@gmail.com <br>+918145844393</div>
  
@@ -870,38 +576,7 @@
  								Shruti Sagar<br>shruti.sagar.iitkgp@gmail.com  <br>+919933952668 </div> </div>
  							
   </div> </div> </div> 
-=======
- 								<div class="col-md-3" style="font:bold 15px Calibri; text-align:center">
- 									Vaibhav Chauhan<br>vaibhavchauhan612@gmail.com <br>+918145844393</div>
- 
- 									<div class="col-md-6"></div>
- 									<div class="col-md-3" style="position:relative;font:bold 15px Calibri; text-align:center">
- 										Mridul Pant <br><div style="position:relative; left:-40px;" >mridul2010@gmail.com </div> +919933935867</div>	
- 									</div>
- 								<div class="row" style="position:relative;font:bold 15px Calibri; text-align:center">
- 								Shruti Sagar<br>shruti.sagar.iitkgp@gmail.com  <br>+919933952668 
- 							</div>
- 								</div>
- 	<!-- <div class="container">
- 		<h2>Students' Alumni Cell</h2>
- 		<h3>Office of Alumni Affairs & International Relations</h3>
- 		<p>Indian Institute of Technology, Kharagpur</p>
- 		<p>West Bengal, India. Pin :- 721302</p>
- 		<p>Email: mentorship@adm.iitkgp.ernet.in</p>
- 		<p>Email: aao@hijli.iitkgp.ernet.in</p>
- 		<p>Phone: +91-3222-281860</p>
- 	</div> -->
- </div>
- </div>
- </div>
- 
- 
- </div>
- </div>
- 
- </div>
- </div>
->>>>>>> 302b0bd6355205ad153875d35768f477857db7ec
+
  <br>
  <footer style="background-color:black; color:white; text-align:center; padding:10px; position:relative; bottom:0px; width:100%">&copy; Students' Alumni Cell, IIT Kharagpur
  	<ul class="soc">
@@ -926,11 +601,8 @@
  				$a = array('class'=>'form-horizontal',
  					'method'=>'post',
  					'role'=>'form');
-<<<<<<< HEAD
  				echo form_open('index.php/users',$a);					
-=======
- 				echo form_open('index.php/welcome/users',$a);					
->>>>>>> 302b0bd6355205ad153875d35768f477857db7ec
+
  				?>
  				<div class="form-group">
  					<div class="col-sm-12">
@@ -1170,7 +842,6 @@
  				<div class="col-sm-12" >
  					<h4>In which field do you want to  be Mentored?</h4>
  					<select name='pref1' class='form-control'>
-<<<<<<< HEAD
  					<option value='-1'>Choose your 1st Preference</option>
             <option value='1'>Aerospace Engineering</option>
             <option value='2'>Agricultural & Food Engineering</option>
@@ -1197,15 +868,7 @@
             <option value='22'>Physics</option>
             <option value='23'>Data Analytics</option>
             <option value='24'>Software Development</option>
-=======
- 						<option value='-1'>Choose your 1st Preference</option>
- 						<option value='1'>Core Fields</option>
- 						<option value='2'>Entrepreneurship</option>
- 						<option value='3'>Consulting</option>
- 						<option value='4'>Finance / Banking</option>
- 						<option value='5'>Data Analytics</option>
- 						<option value='6'>Software Development</option>
->>>>>>> 302b0bd6355205ad153875d35768f477857db7ec
+
  					</select>
  				</div>
  			</div>
@@ -1213,7 +876,7 @@
  				<div class="col-sm-12">
  					<select name='pref2' class='form-control'>
  						<option value='-1'>Choose your 2nd Preference</option>
-<<<<<<< HEAD
+
             <option value='1'>Aerospace Engineering</option>
             <option value='2'>Agricultural & Food Engineering</option>
             <option value='3'>Architecture & Regional Planning</option>
@@ -1239,15 +902,7 @@
             <option value='22'>Physics</option>
             <option value='23'>Data Analytics</option>
             <option value='24'>Software Development</option>
-=======
- 						 <option value='-1'>Choose your 1st Preference</option>
-            <option value='1'>Core Fields</option>
-            <option value='2'>Entrepreneurship</option>
-            <option value='3'>Consulting</option>
-            <option value='4'>Finance / Banking</option>
-            <option value='5'>Data Analytics</option>
-            <option value='6'>Software Development</option>
->>>>>>> 302b0bd6355205ad153875d35768f477857db7ec
+
  					</select>
  				</div>
  			</div>
@@ -1255,7 +910,6 @@
  				<div class="col-sm-12">
  					<select name='pref3' class='form-control'>
  						 <option value='-1'>Choose your 3rd Preference</option>
-<<<<<<< HEAD
             <option value='1'>Aerospace Engineering</option>
             <option value='2'>Agricultural & Food Engineering</option>
             <option value='3'>Architecture & Regional Planning</option>
@@ -1281,14 +935,7 @@
             <option value='22'>Physics</option>
             <option value='23'>Data Analytics</option>
             <option value='24'>Software Development</option>
-=======
-            <option value='1'>Core Fields</option>
-            <option value='2'>Entrepreneurship</option>
-            <option value='3'>Consulting</option>
-            <option value='4'>Finance / Banking</option>
-            <option value='5'>Data Analytics</option>
-            <option value='6'>Software Development</option>
->>>>>>> 302b0bd6355205ad153875d35768f477857db7ec
+
  					</select>
  				</div>
  			</div>
@@ -1325,11 +972,8 @@
  				$a = array('class'=>'form-horizontal',
  					'method'=>'post',
  					'role'=>'form');
-<<<<<<< HEAD
+
  				echo form_open('index.php/users',$a);					
-=======
- 				echo form_open('index.php/welcome/users',$a);					
->>>>>>> 302b0bd6355205ad153875d35768f477857db7ec
  				?>
  				<div class="form-group">
  					<div class="col-sm-12">
@@ -1455,11 +1099,8 @@
  
  			<div class="form-group">
  				<div class="col-sm-3">
-<<<<<<< HEAD
+
  					<h4>Preferred No. Of Mentees</h4>
-=======
- 					<h5>Preferred No. Of Mentees</h5>
->>>>>>> 302b0bd6355205ad153875d35768f477857db7ec
  				</div>
  				<div class="col-sm-4">
  					<select name='mentee' class="form-control">
@@ -1673,9 +1314,5 @@
  
  </body>
  
- 
-<<<<<<< HEAD
+
  </html>
-=======
- </html>
->>>>>>> 302b0bd6355205ad153875d35768f477857db7ec
