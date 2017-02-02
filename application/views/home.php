@@ -13,7 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		::selection { background-color: #E13300; color: white; }
 		::-moz-selection { background-color: #E13300; color: white; }
 				body {
-			background-image: url('/img/bg.jpg');
+			background-image: url('../img/bg.jpg');
 		}
 	</style>
 </head>
@@ -41,7 +41,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
-	<!--img src="/img/gym1.jpg" style="position:relative;top:-20px;" width="100%" height="400" class="img img-rounded" /-->
+	<!--img src="/../img/gym1.jpg" style="position:relative;top:-20px;" width="100%" height="400" class="img img-rounded" /-->
 
 	<div class="container">
 		<div class="row">
@@ -54,7 +54,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<br/>
 
 				<div style="">
-					<img src="/img/user.png" class="img img-rounded" style="position:relative;left:20px;" width="200" height="180" /><br/><br/>
+					<img src="../img/user.png" class="img img-rounded" style="position:relative;left:20px;" width="200" height="180" /><br/><br/>
 					<div class="list-group"><?php
 						if($this->input->post('cgpa')==''){
 							echo "<ul class = 'list-group'>";
@@ -70,7 +70,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						else { echo "<ul class = 'list-group'>";
 							echo '<li class="list-group-item">'.'<strong>Email </strong>'.'<span class="pull-right">'. $email .'</span>'.'</li>';
 							echo '<li class="list-group-item">'.'<strong>Roll Number </strong>'.'<span class="pull-right">'. $roll .'</span>'.'</li>';
-							echo '<li class="list-group-item">'.'<strong>Joining Year </strong>'.'<span class="pull-right">' .$join .'</span>'.'</li>';
 							echo '<li class="list-group-item">'.'<strong>Department  </strong>'.'<span class="pull-right">'. $department.'</span>'.'</li>';
 							echo '<li class="list-group-item">'.'<strong>Hall </strong>'.'<span class="pull-right">'. $hall .'</span>'.'</li>';			
                             echo "</ul>";
@@ -112,7 +111,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				if (isset($_POST['logout'])) {
 					# code...
 					session_destroy();
-					header('location:index');
+					header('location:http://www.mentorship.iitkgp.ernet.in/');
 				}
 				?>
 			</div>
