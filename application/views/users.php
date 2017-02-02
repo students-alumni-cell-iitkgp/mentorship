@@ -15,7 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			padding: 20px 0px;
 		}
 			body {
-			background-image: url('img/bg.jpg');
+			background-image: url('../img/bg.jpg');
 		}
 		::selection { background-color: #E13300; color: white; }
 		::-moz-selection { background-color: #E13300; color: white; }
@@ -29,7 +29,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<img src="img/hand.jpg" class="img img-rounded" height="40">
+				<img src="../img/hand.jpg" class="img img-rounded" height="40">
 				
 				<ul class="nav navbar-nav navbar-right">
 
@@ -47,7 +47,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</nav>
 
 
-	<!--img src="/img/gym1.jpg" style="position:relative;top:-20px;" width="100%" height="400" class="img img-rounded" -->
+	<!--img src="/../img/gym1.jpg" style="position:relative;top:-20px;" width="100%" height="400" class="img img-rounded" -->
 	<div class="container">
 		<div class="row">
 
@@ -58,7 +58,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<br/>
 
 				<div style="">
-					<img src="img/user.png" class="img img-rounded" style="position:relative;left:20px;" width="200" height="180" /><br/><br/>
+					<img src="../img/user.png" class="img img-rounded" style="position:relative;left:20px;" width="200" height="180" /><br/><br/>
 					<div class="list-group" style="width:115%"><?php
 						$query = $this->db->get_where('contact', array('email' => $email));
 						$row=$query->row_array();		
