@@ -552,7 +552,7 @@
  				$a = array('class'=>'form-horizontal',
  					'method'=>'post',
  					'role'=>'form');
- 				echo form_open('index.php/users',$a);					
+ 				echo form_open('http://www.mentorship.iitkgp.ernet.in/index.php/users',$a);					
 
  				?>
  				<div class="form-group">
@@ -924,7 +924,7 @@
  					'method'=>'post',
  					'role'=>'form');
 
- 				echo form_open('index.php/users',$a);					
+ 				echo form_open('http://www.mentorship.iitkgp.ernet.in/index.php/users',$a);					
  				?>
  				<div class="form-group">
  					<div class="col-sm-12">
