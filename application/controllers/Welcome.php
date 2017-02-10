@@ -114,13 +114,14 @@ if(!isset($_POST['logout'])){
 		if ($query->num_rows()>0) {
 			$row = $query->row_array();	$row1 = $query1->row_array();
 			if($row['password']==$_POST['pass']){
-				$this->load->view('users', $row );
                 $data=array(
                     'email'=>$this->input->post('eid'),
                     'is_logged_in'=>true
                 );
                 $this->session->set_userdata($data);
-			}
+                $this->load->view('users', $row );
+                
+                }
 			else { 
 				header("Location:http://www.mentorship.iitkgp.ernet.in/?err=pass");
 		}
