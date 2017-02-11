@@ -177,38 +177,38 @@
    <!-- Indicators -->
    <ol class="carousel-indicators">
      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-     <li data-target="#myCarousel" data-slide-to="1"></li>
-     <li data-target="#myCarousel" data-slide-to="2"></li>
-     <li data-target="#myCarousel" data-slide-to="3"></li>
+     <!-- <li data-target="#myCarousel" data-slide-to="1"></li> -->
+     <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
+     <!-- <li data-target="#myCarousel" data-slide-to="3"></li> -->
    </ol>
  
    <!-- Wrapper for slides -->
    <div class="carousel-inner" role="listbox" >
      <div class="item active">
-       <img src="img/mentorslider.jpg" style="width: 100vw; height: 450px;">
+       <img src="img/width.jpg" style="width: 100vw; height: 600px;">
       
      </div>
  
-     <div class="item">
-       <img src="img/mentorslidertwo.jpg" style="width: 100vw; height: 450px;">
+     <!-- <div class="item"> -->
+       <!-- <img src="img/mentorslidertwo.jpg" style="width: 100vw; height: 450px;"> -->
        
-     </div>
+     <!-- </div> -->
  
-     <div class="item">
-       <img src="img/mentorshipsliderthree.png" style="width: 100vw; height: 450px;">
+     <!-- <div class="item"> -->
+       <!-- <img src="img/mentorshipsliderthree.png" style="width: 100vw; height: 450px;"> -->
        
-     </div>
+     <!-- </div> -->
  
-     <div class="item">
-       <img src="img/mentorshipsliderfour.jpg"  style="width: 100vw; height: 450px;">
+     <!-- <div class="item"> -->
+       <!-- <img src="img/mentorshipsliderfour.jpg"  style="width: 100vw; height: 450px;"> -->
        
-     </div>
+     <!-- </div> -->
    </div>
  
  </div>
  	
  </div> <br>
- <hr> <br>
+ <hr> <br> <br> <br> <br> <br><br> <br>
  <div class="container-fluid">
  	<hr>
  	<div class="row">
