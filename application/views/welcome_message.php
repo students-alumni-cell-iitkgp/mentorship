@@ -12,6 +12,21 @@
  	<!-- Generic page styles -->
  	<style type="text/css">
  
+    #mentor_reg{
+    margin-left: -100px
+
+    }
+
+     @media only screen and (min-width:769px){
+   
+    #mentor_reg{
+
+     margin-left: 0px;
+    
+    }
+
+
+     }
  		::selection { background-color: #E13300; color: white; }
  		::-moz-selection { background-color: #E13300; color: white; }
  		#bg {
@@ -132,43 +147,21 @@
  </head>
  <body>
 
-  <div class="navbar" style="padding: 15px; background-color:#babfc6; margin-bottom: 0px;">
-    <div class="row">
-      <div class="col-md-4"></div>
-      <?php 
-      $this->load->helper('form');
-      $for=array('class' => 'form-horizontal',
- 
-        'method' => 'post',
-        'role' => 'form',
-        );    
-      echo form_open('index.php/login',$for);
-      ?>
-      <div class="col-md-3">
-        <?php
-        $email1 = array('name' => 'eid' ,
-          'type' => 'email',
-          'class' => 'form-control',
-          'placeholder' => 'Enter Your Email',
-          'required' => 'required' );
-        echo form_input($email1);
-        ?>
+  <div class="navbar z-depth-5" style="background-color:white; margin-bottom: 0px;">
+      <div class="row" style="margin-top: 5px;width: 99.9%">
+          <div class="col-md-3">
+              <a href="http://www.sac.iitkgp.ac.in/"><img height="65" src="img/logo2.png" alt=""></a>
+          </div>
+          
+          <div class="col-md-6">
+                <h2 style="color: rgb(53,61,72);font-family: 'Open Sans',sans-serif;margin-left: 60px">Student Alumni Mentorship Programme</h2>
+          </div>
+
+          <div class="col-md-2">
+              <img style="float: right;margin-right: -80px" height="70" src="img/logo1.jpg" alt="">
+          </div>
       </div>
-      <div class="col-md-3">
-        <?php
-        $pwd = array('name' => 'pass' ,
-          'type' => 'password',
-          'class' => 'form-control',
-          'placeholder' => 'Enter Your Password',
-          'required' => 'required' );
-        echo form_input($pwd);
-        ?>
-      </div>
-      <div class="col-md-2">
-        <button type="submit" class="btn btn-success">Log In</button>
-      </form>
-    </div>
-  </div>
+
 </div>
 
  	<div id="bg">
@@ -208,26 +201,74 @@
  </div>
  	
  </div> <br>
- <hr> <br> <br> <br> <br> <br><br> <br>
+ <hr> <br>
+ <br><br><br><br> <br>
  <div class="container-fluid">
  	<hr>
  	<div class="row">
 
  		
 <div class="col-md-2"> </div>
-
- 		<div class="col-md-8" style="position:relative;left:25px;">
-    <div class="row">
-    <div class="col-md-6" align="center">
+		<div class="col-md-8" style="position:relative;left:25px;">
+    <div class="row fluid">
+    <div id="mentor_reg" class="col-md-3" align="center" style="" >
     <a data-toggle="modal" href="#registermentor" style="outline: none;">
     <img src="img/ment.png" style="max-width:100px;">
         <h3>Mentor Registration</h3>
       </a> </div>
-      <div class="col-md-6" align="center">
+      <div class="col-md-3" align="center" style="border-right: 1px solid lightgrey;padding-right: 80px;margin-left: 100px">
       <a data-toggle="modal" data-target="#registerstudent">
       <img src="img/mentee.png" style="max-width:100px;">
         <h3>Mentee Registration</h3>
-      </a> </div> </div>
+      </a> </div>
+
+		<div class="col-md-6" align="center">
+            <div class="row">
+                <h3>LOG IN</h3><br>
+                <div class="col-md-12"></div>
+                <?php
+                $this->load->helper('form');
+                $for=array('class' => 'form-horizontal',
+
+                    'method' => 'post',
+                    'role' => 'form',
+                );
+                echo form_open('index.php/login',$for);
+                ?>
+
+                <div class="col-md-12">
+                    <?php
+                    $email1 = array('name' => 'eid' ,
+                        'type' => 'email',
+                        'class' => 'form-control',
+                        'placeholder' => 'Enter Your Email',
+                        'required' => 'required' );
+                    echo form_input($email1);
+                    ?>
+                </div>
+                <br>
+                <br>
+                <div class="col-md-12">
+                    <?php
+                    $pwd = array('name' => 'pass' ,
+                        'type' => 'password',
+                        'class' => 'form-control',
+                        'placeholder' => 'Enter Your Password',
+                        'required' => 'required' );
+                    echo form_input($pwd);
+                    ?>
+                </div>
+                <br>
+                <hr>
+                <div class="col-md-2" style="margin-right: 21px;padding-top: -5px;margin-top: -15px;margin-left: 36%">
+                    <button  type="submit" class="btn btn-success">Log In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+	</div>
       <hr> 
  			<br>
  			<div class="tab-content" style="width:100%">
