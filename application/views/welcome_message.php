@@ -12,6 +12,21 @@
  	<!-- Generic page styles -->
  	<style type="text/css">
  
+    #mentor_reg{
+    margin-left: -100px
+
+    }
+
+     @media only screen and (min-width:769px){
+   
+    #mentor_reg{
+
+     margin-left: 0px;
+    
+    }
+
+
+     }
  		::selection { background-color: #E13300; color: white; }
  		::-moz-selection { background-color: #E13300; color: white; }
  		#bg {
@@ -196,7 +211,7 @@
 <div class="col-md-2"> </div>
 		<div class="col-md-8" style="position:relative;left:25px;">
     <div class="row fluid">
-    <div class="col-md-3" align="center" style="margin-left: -100px" >
+    <div id="mentor_reg" class="col-md-3" align="center" style="" >
     <a data-toggle="modal" href="#registermentor" style="outline: none;">
     <img src="img/ment.png" style="max-width:100px;">
         <h3>Mentor Registration</h3>
