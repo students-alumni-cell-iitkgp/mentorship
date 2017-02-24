@@ -17,7 +17,7 @@
 
     }
 
-     @media only screen and (min-width:769px){
+     @media only screen and (max-width:769px){
    
     #mentor_reg{
 
@@ -222,7 +222,7 @@
         <h3>Mentee Registration</h3>
       </a> </div>
 
-		<div class="col-md-6" align="center">
+		<div style="float: left;" class="col-md-6" align="center">
             <div class="row">
                 <h3>LOG IN</h3><br>
                 <div class="col-md-12"></div>
