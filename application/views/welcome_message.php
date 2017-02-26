@@ -141,6 +141,7 @@
      -webkit-appearance: none;
      -moz-appearance: none;
      appearance: none;
+<<<<<<< HEAD
      margin: 0; 
  }
 
@@ -152,10 +153,64 @@
  border: 2px red solid; 
  }
  	</style>
+=======
+     margin: 0;
+
+ }
+.nav_list{
+
+    font-size: 1.2em;
+    text-align: right;
+    padding: 0px;
+    margin: 0;
+}
+    .navbar-inverse .navbar-nav>li>a{
+
+        color: #2f4c73;
+        border-radius: .2em;
+    }
+    .navbar-inverse .navbar-nav>li>a:hover{
+        background-color: #2f4c73;
+        color: white;
+        transition: .4s;
+
+    }
+	@media only screen and (max-width:950px){
+
+		.navbar-collapse.collapse{
+			display: none!important;
+		}
+	}
+
+    </style>
+>>>>>>> 01d1503fa18bccfe49a34978afe30adcba35fe8b
  </head>
  <body>
+ <div style="background-color: white;height: 90px;border-color:#2f4c73 " class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+     <div class="container">
+         <div class="navbar-header">
+             <button style="display: none" type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-collapse">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+             </button>
+             <a style="padding: 0px;margin-left: 0px" class="navbar-brand" href="#"><img height="93" src="img/samp_logo.png" alt=""></a>
+         </div>
+         <div id="nav_pc" style="margin-top: 1.4em" class="collapse navbar-collapse">
+             <button style="background-color:#2f4c73;border: 0px;font-stretch: expanded" onclick="window.open('img/brochure.pdf')"  class="btn btn-danger navbar-btn navbar-right">SAMP Brochure</button>
+             <ul style=" margin-right: 10px"  class="nav navbar-nav navbar-right ">
 
-  <div class="navbar z-depth-5" style="background-color:white; margin-bottom: 0px;">
+                 <li class="nav_list"><a href="#">Home</a></li>
+                 <li class="nav_list"><a href="#testimonials">Testimonials</a></li>
+                 <li class="nav_list"><a href="#faq">FAQs</a></li>
+                 <li class="nav_list"><a href="#contact">Contact us</a></li>
+             </ul>
+
+         </div>
+     </div>
+ </div>
+ <!-- <div class="navbar z-depth-5" style="background-color:white; margin-bottom: 0px;">
       <div class="row" style="margin-top: 5px;width: 99.9%">
           <div class="col-md-3">
               <a href="http://www.sac.iitkgp.ac.in/"><img height="65" src="img/logo2.png" alt=""></a>
@@ -169,8 +224,8 @@
               <img style="float: right;margin-right: -80px" height="70" src="img/logo1.jpg" alt="">
           </div>
       </div>
-
-</div>
+     </div>
+ -->
 
  	<div id="bg">
  
@@ -301,7 +356,7 @@
  						</p>
             <hr>
  					
- 			<h3>Testimonials</h3>
+ 			<h3 id="testimonials">Testimonials</h3>
  					
  						<div class="row" >
  							<div class="col-md-8">
@@ -350,7 +405,7 @@
  				</div>
         <hr>
 
- 						<h3 >Frequently Asked Questions</h3> <br>
+ 						<h3 id="faq" >Frequently Asked Questions</h3> <br>
  							
  
  						<div class="row">
@@ -542,7 +597,7 @@
  							</div><!--col-md-6 ends -->
  						</div> <hr>
  
- 				<h3>Contact Us</h3>
+ 				<h3 id="contact">Contact Us</h3>
  				
  	<div align="center">
 
