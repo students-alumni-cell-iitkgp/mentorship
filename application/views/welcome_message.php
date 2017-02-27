@@ -141,6 +141,19 @@
      -webkit-appearance: none;
      -moz-appearance: none;
      appearance: none;
+<<<<<<< HEAD
+     margin: 0; 
+ }
+
+ optgroup[label='Core Fields']{
+  color: grey;
+ margin-top: 10px;
+ border:1px red solid;
+ font-size: 2em;
+ border: 2px red solid; 
+ }
+ 	</style>
+=======
      margin: 0;
 
  }
@@ -170,6 +183,7 @@
 	}
 
     </style>
+>>>>>>> 01d1503fa18bccfe49a34978afe30adcba35fe8b
  </head>
  <body>
  <div style="background-color: white;height: 90px;border-color:#2f4c73 " class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -634,7 +648,7 @@
  		<div class="modal-content">
  			<div class="modal-header">
  				<button type="button" class="close" data-dismiss="modal">&times;</button>
- 				<h4 class="modal-title" style="text-align:center;">Register Here</h4>
+ 				<h3 class="modal-title" style="text-align:center;">Register Here</h3>
  			</div>
  			<div class="modal-body">
  				<?php
@@ -758,25 +772,25 @@
  				<select name='hall' class='form-control'>
  					<option value='0'>Select Your Hall</option>
  					<option value="SAM">Ashutosh Mukherjee  Hall</option>
- 					<option value="AZ">Azad  Hall</option>
- 					<option value="BCR">B C Roy  Hall</option>
- 					<option value="BRAH">B R Ambedkar  Hall</option>
- 					<option value="GH">Gokhale  Hall</option>
- 					<option value="HJB">Homi Bhabha  Hall</option>
- 					<option value="JCB">J C Bose  Hall</option>
- 					<option value="LLR">Lala Lajpat Rai  Hall</option>
- 					<option value="LBS">Lalbahadur Sastry  Hall</option>
- 					<option value="MMM">Madan Mohan Malviya  Hall</option>
- 					<option value="MS">Megnad Saha  Hall</option>
- 					<option value="MT">Mother Teresa  Hall</option>
- 					<option value="NH">Nehru  Hall</option>
- 					<option value="PT">Patel  Hall</option>
- 					<option value="RK">Radha Krishnan  Hall</option>
- 					<option value="RP">Rajendra Prasad  Hall</option>
- 					<option value="RLB">Rani Laxmibai  Hall</option>
- 					<option value="SN">Sarojini Naidu / Indira Gandhi  Hall</option>
- 					<option value="VS">Vidyasagar  Hall</option>
- 					<option value="ZH">Zakir Hussain  Hall</option>
+ 					<option value="AZ">Azad Hall</option>
+ 					<option value="BCR">B C Roy Hall</option>
+ 					<option value="BRAH">B R Ambedkar Hall</option>
+ 					<option value="GH">Gokhale Hall</option>
+ 					<option value="HJB">Homi J.Bhabha Hall</option>
+ 					<option value="JCB">J C Bose Hall</option>
+ 					<option value="LLR">Lala Lajpat Rai Hall</option>
+ 					<option value="LBS">Lalbahadur Sastry Hall</option>
+ 					<option value="MMM">Madan Mohan Malviya Hall</option>
+ 					<option value="MS">Megnad Saha Hall</option>
+ 					<option value="MT">Mother Teresa Hall</option>
+ 					<option value="NH">Nehru Hall</option>
+ 					<option value="PT">Patel Hall</option>
+ 					<option value="RK">Radha Krishnan Hall</option>
+ 					<option value="RP">Rajendra Prasad Hall</option>
+ 					<option value="RLB">Rani Laxmibai Hall</option>
+ 					<option value="SN">Sarojini Naidu/Indira Gandhi Hall</option>
+ 					<option value="VS">Vidyasagar Hall</option>
+ 					<option value="ZH">Zakir Hussain Hall</option>
  				</select>					
  			</div>
  
@@ -884,20 +898,28 @@
  					<h4>In which field do you want to  be Mentored?</h4>
  					<select name='pref1' class='form-control'>
  					<option value='-1'>Choose your 1st Preference</option>
+            <option value='4'>Banking & Finance</option>
+            <option value='10'>Management Consultancy</option>
+            <option value='23'>Entrepreneurship</option>
+            <option value='24'>Consulting</option>
+            <option value='25'>Data Analytics</option>
+            <option value='26'>Software Development</option>
+            <option value="27">Marketing</option>
+            <option value="28">Civil Services</option>
+            <optgroup label="Core Fields"></optgroup>
             <option value='1'>Aerospace Engineering</option>
             <option value='2'>Agricultural & Food Engineering</option>
             <option value='3'>Architecture & Regional Planning</option>
-            <option value='4'>Banking & Finance</option>
             <option value='5'>Biotechnology</option>
             <option value='6'>Civil Engineering</option>
             <option value='7'>Chemical Engineering</option>
             <option value='8'>Civil Services</option>
             <option value='9'>Computer Science & Engineering</option>
-            <option value='10'>Management Consultancy</option>
+            
             <option value='11'>Chemistry</option>
             <option value='12'>Electrical Engineering</option>
             <option value='13'>Electronics & Electrical Communication Engineering</option>
-            <option value='23'>Entrepreneurship</option>
+            
             <option value='14'>Geology & Geophysics</option>
             <option value='15'>Humanities & Social Sciences</option>
             <option value='16'>Industrial & Systems Engineering</option>
@@ -907,8 +929,6 @@
             <option value='20'>Mining Engineering</option>
             <option value='21'>Ocean Engineering & Naval Architecture</option>
             <option value='22'>Physics</option>
-            <option value='23'>Data Analytics</option>
-            <option value='24'>Software Development</option>
 
  					</select>
  				</div>
@@ -917,21 +937,28 @@
  				<div class="col-sm-12">
  					<select name='pref2' class='form-control'>
  						<option value='-1'>Choose your 2nd Preference</option>
-
+            <option value='4'>Banking & Finance</option>
+            <option value='10'>Management Consultancy</option>
+            <option value='23'>Entrepreneurship</option>
+            <option value='24'>Consulting</option>
+            <option value='25'>Data Analytics</option>
+            <option value='26'>Software Development</option>
+            <option value="27">Marketing</option>
+            <option value="28">Civil Services</option>
+            <optgroup label="Core Fields"></optgroup>
             <option value='1'>Aerospace Engineering</option>
             <option value='2'>Agricultural & Food Engineering</option>
             <option value='3'>Architecture & Regional Planning</option>
-            <option value='4'>Banking & Finance</option>
             <option value='5'>Biotechnology</option>
             <option value='6'>Civil Engineering</option>
             <option value='7'>Chemical Engineering</option>
             <option value='8'>Civil Services</option>
             <option value='9'>Computer Science & Engineering</option>
-            <option value='10'>Management Consultancy</option>
+            
             <option value='11'>Chemistry</option>
             <option value='12'>Electrical Engineering</option>
             <option value='13'>Electronics & Electrical Communication Engineering</option>
-            <option value='23'>Entrepreneurship</option>
+            
             <option value='14'>Geology & Geophysics</option>
             <option value='15'>Humanities & Social Sciences</option>
             <option value='16'>Industrial & Systems Engineering</option>
@@ -941,30 +968,35 @@
             <option value='20'>Mining Engineering</option>
             <option value='21'>Ocean Engineering & Naval Architecture</option>
             <option value='22'>Physics</option>
-            <option value='23'>Data Analytics</option>
-            <option value='24'>Software Development</option>
-
  					</select>
  				</div>
  			</div>
  			<div class="form-group">
  				<div class="col-sm-12">
  					<select name='pref3' class='form-control'>
- 						 <option value='-1'>Choose your 3rd Preference</option>
+ 						<option value='-1'>Choose your 3rd Preference</option>
+            <option value='4'>Banking & Finance</option>
+            <option value='10'>Management Consultancy</option>
+            <option value='23'>Entrepreneurship</option>
+            <option value='24'>Consulting</option>
+            <option value='25'>Data Analytics</option>
+            <option value='26'>Software Development</option>
+            <option value="27">Marketing</option>
+            <option value="28">Civil Services</option>
+            <optgroup label="Core Fields"></optgroup>
             <option value='1'>Aerospace Engineering</option>
             <option value='2'>Agricultural & Food Engineering</option>
             <option value='3'>Architecture & Regional Planning</option>
-            <option value='4'>Banking & Finance</option>
             <option value='5'>Biotechnology</option>
             <option value='6'>Civil Engineering</option>
             <option value='7'>Chemical Engineering</option>
             <option value='8'>Civil Services</option>
             <option value='9'>Computer Science & Engineering</option>
-            <option value='10'>Management Consultancy</option>
+            
             <option value='11'>Chemistry</option>
             <option value='12'>Electrical Engineering</option>
             <option value='13'>Electronics & Electrical Communication Engineering</option>
-            <option value='23'>Entrepreneurship</option>
+            
             <option value='14'>Geology & Geophysics</option>
             <option value='15'>Humanities & Social Sciences</option>
             <option value='16'>Industrial & Systems Engineering</option>
@@ -974,8 +1006,6 @@
             <option value='20'>Mining Engineering</option>
             <option value='21'>Ocean Engineering & Naval Architecture</option>
             <option value='22'>Physics</option>
-            <option value='23'>Data Analytics</option>
-            <option value='24'>Software Development</option>
 
  					</select>
  				</div>
@@ -1004,11 +1034,11 @@
  		<div class="modal-content">
  			<div class="modal-header">
  				<button type="button" class="close" data-dismiss="modal">&times;</button>
- 				<h4 class="modal-title" style="text-align:center;">Register  Here</h4>
+ 				<h3 class="modal-title" style="text-align:center;">Register Here</h3>
  			</div>
+
  			<div class="modal-body">
- 
- 				<?php
+      <?php
  				$this->load->helper('form');
  				$a = array('class'=>'form-horizontal',
  					'method'=>'post',
@@ -1016,6 +1046,7 @@
 
  				echo form_open('http://www.mentorship.iitkgp.ernet.in/index.php/users',$a);					
  				?>
+        <h4>Personal Details</h4> <hr>
  				<div class="form-group">
  					<div class="col-sm-12">
  						<?php
@@ -1026,10 +1057,21 @@
  						echo form_input($fname);
  						?>
  					</div>
- 
- 
- 
- 				</div>
+          </div>
+
+          <div class="form-group">
+          <div class="col-sm-12">
+            <?php
+            $fhall = array('name' => 'hall' ,
+              'class' => 'form-control',
+              'placeholder' => 'Enter Your Hall',
+              'required' => 'required' );
+            echo form_input($fhall);
+            ?>
+          </div>
+          </div>
+
+
  
  				<div class="form-group">
  					<div class="col-sm-12">
@@ -1042,10 +1084,8 @@
  						echo form_input($femail);
  						?>
  					</div>
- 
- 
- 
- 				</div>
+          </div>
+
  				<div class="form-group">
  					<div class="col-sm-12">
  						<?php
@@ -1054,92 +1094,138 @@
  							'placeholder' => 'Enter Your Password',
  							'type' => 'password',
  							'required' => 'required' );
- 						echo form_input($fpass);
+ 						  echo form_input($fpass);
  						?>
  					</div>
+          </div>
+          
+
+          <div class="form-group">
+        <div class="col-sm-12">
+          <?php 
+          $fphone = array('name' => 'phone',
+            'class' => 'form-control',
+            'placeholder' => 'Enter Your Phone No.',
+            'type' =>'number',
+            'required' => 'required');
+          echo form_input($fphone);
+          ?>
+        </div>
+      </div>
+
+          <div class="form-group">
+          <div class="col-sm-12">
+            <?php
+            $fadd = array('name' => 'address',
+              'class' => 'form-control',
+              'placeholder' => 'Enter Your Address',
+              'type' => 'text',
+              'required' => 'required');
+              echo form_input($fadd);
+            ?>
+          </div>
+          </div>
+
+          <div class="form-group">
+        <div class="col-sm-12">
+         <select name='department' class='form-control'>
+          <option value='0'>Select Your Department</option>
+          <option value="AE">Aerospace Engineering</option>
+          <option value="AG">Agricultural & Food Engineering</option>
+          <option value="AR">Architecture & Regional Planning</option>
+          <option value="BT">Biotechnology</option>
+          <option value="CE">Civil Engineering</option>
+          <option value="CH">Chemical Engineering</option>
+          <option value="CS">Computer Science & Engineering</option>
+          <option value="CY">Chemistry</option>
+          <option value="EE">Electrical Engineering</option>
+          <option value="EC">Electronics & Electrical Communication Engineering</option>
+          <option value="GG">Geology & Geophysics</option>
+          <option value="HS">Humanities & Social Sciences</option>
+          <option value="IM">Industrial & Systems Engineering</option>
+          <option value="MA">Mathematics</option>
+          <option value="ME">Mechanical Engineering</option>
+          <option value="MT">Metallurgical & Materials Engineering</option>
+          <option value="MI">Mining Engineering</option>
+          <option value="NA">Ocean Engineering & Naval Architecture</option>
+          <option value="PH">Physics</option>
+          <option value="ATDC">Advanced Techology Development Center</option>
+          <option value="CET">Center for Educational Technology</option>
+          <option value="CYE">Cryogenic Engineering</option>
+          <option value="MS">Materials Science</option>
+          <option value="ORALS">Oceans, Rivers, Atmosphere and Land Sciences</option>
+          <option value="CBE">P K Sinha Centre for Bio Energy</option>
+          <option value="REC">Reliability Engineering Centre</option>
+          <option value="RTC">Rubber Technology Centre</option>
+          <option value="RDC">Rural Development Centre</option>
+          <option value="GSSST">G S Sanyal School of Telecommunications</option>
+          <option value="IT">Information Technology</option>
+          <option value="RMSEE">Rajendra Mishra School of Engineering Entrepreneurship</option>
+          <option value="RGSIPL">Rajiv Gandhi School of Intellectual Property Law</option>
+          <option value="MST">Medical Science & Technology</option>
+          <option value="SB">School of Bioscience</option>
+          <option value="SEST">School of Environment Science and Technology</option>
+          <option value="SES">School of Energy Science</option>
+          <option value="SNST">School of Nano-Science and Technology</option>
+          <option value="SWS">School of Water Resources</option>
+          <option value="VGSOM">Vinod Gupta School of Management</option>
  
+        </select> 
+      </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <?php 
+          $fpasout = array('name' => 'pout',
+            'class' => 'form-control',
+            'placeholder' => 'Enter Your Year Of Graduation',
+            'required' => 'required');
+          echo form_input($fpasout);
+          ?>
+        </div>
+      </div>
+          <!-- end of Personal details -->
+
+          <h4 class="center">Professional Details </h4> <hr>
+      <div class="form-group">
+        <div class="col-sm-12">
+          <?php 
+          $firm = array('name' => 'firm',
+            'class' => 'form-control',
+            'placeholder' => 'Your Organisation Name');
+          echo form_input($firm);
+          ?>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <?php 
+          $fprof  = array('name' => 'fprof',
+            'class' => 'form-control',
+            'placeholder' => 'Your Profession');
+          echo form_input($fprof);
+          ?>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <?php 
+          $fd = array('name' => 'des',
+            'class' => 'form-control',
+            'placeholder' => 'Your Designation');
+          echo form_input($fd);
+          ?>
+        </div>
+      </div>
  
- 
- 				</div>
- 			<!--
+
+ <div id="f2">
+ <h3>Mentorship Section</h3> <hr>
  			<div class="form-group">
- 				<div class="col-sm-12">
- 					<?php/*
- 					$fp = array('name' => 'password1' ,
- 						'class' => 'form-control',
- 						'placeholder' => 'Enter Your Password Again',
- 						'type' => 'password' );
- 					echo form_input($fp);
- 					*/?>
- 				</div>
- 			</div>
- 		-->
- 		<div class="form-group">
- 			<div class="col-sm-12">
- 				<select name='department' class='form-control'>
- 					<option value='0'>Select Your Department</option>
- 					<option value="AE">Aerospace Engineering</option>
- 					<option value="AG">Agricultural & Food Engineering</option>
- 					<option value="AR">Architecture & Regional Planning</option>
- 					<option value="BT">Biotechnology</option>
- 					<option value="CE">Civil Engineering</option>
- 					<option value="CH">Chemical Engineering</option>
- 					<option value="CS">Computer Science & Engineering</option>
- 					<option value="CY">Chemistry</option>
- 					<option value="EE">Electrical Engineering</option>
- 					<option value="EC">Electronics & Electrical Communication Engineering</option>
- 					<option value="GG">Geology & Geophysics</option>
- 					<option value="HS">Humanities & Social Sciences</option>
- 					<option value="IM">Industrial & Systems Engineering</option>
- 					<option value="MA">Mathematics</option>
- 					<option value="ME">Mechanical Engineering</option>
- 					<option value="MT">Metallurgical & Materials Engineering</option>
- 					<option value="MI">Mining Engineering</option>
- 					<option value="NA">Ocean Engineering & Naval Architecture</option>
- 					<option value="PH">Physics</option>
- 					<option value="ATDC">Advanced Techology Development Center</option>
- 					<option value="CET">Center for Educational Technology</option>
- 					<option value="CYE">Cryogenic Engineering</option>
- 					<option value="MS">Materials Science</option>
- 					<option value="ORALS">Oceans, Rivers, Atmosphere and Land Sciences</option>
- 					<option value="CBE">P K Sinha Centre for Bio Energy</option>
- 					<option value="REC">Reliability Engineering Centre</option>
- 					<option value="RTC">Rubber Technology Centre</option>
- 					<option value="RDC">Rural Development Centre</option>
- 					<option value="GSSST">G S Sanyal School of Telecommunications</option>
- 					<option value="IT">Information Technology</option>
- 					<option value="RMSEE">Rajendra Mishra School of Engineering Entrepreneurship</option>
- 					<option value="RGSIPL">Rajiv Gandhi School of Intellectual Property Law</option>
- 					<option value="MST">Medical Science & Technology</option>
- 					<option value="SB">School of Bioscience</option>
- 					<option value="SEST">School of Environment Science and Technology</option>
- 					<option value="SES">School of Energy Science</option>
- 					<option value="SNST">School of Nano-Science and Technology</option>
- 					<option value="SWS">School of Water Resources</option>
- 					<option value="VGSOM">Vinod Gupta School of Management</option>
- 
- 				</select>	
- 			</div>
- 
- 
- 
- 		</div>
- 
- 		<div id="f2" style="">
- 			<div class="form-group">
- 				<div class="col-sm-12">
- 					<?php 
- 					$fpasout = array('name' => 'pout',
- 						'class' => 'form-control',
- 						'placeholder' => 'Enter Your Year Of Graduation',
- 						'required' => 'required');
- 					echo form_input($fpasout);
- 					?>
- 				</div>
- 			</div>
- 
- 			<div class="form-group">
- 				<div class="col-sm-3">
+ 				<div class="col-sm-5">
 
  					<h4>Preferred No. Of Mentees</h4>
  				</div>
@@ -1157,20 +1243,28 @@
  				<div class="col-sm-12">
  					<select name='pref1' class='form-control'>
  						<option value='-1'>Choose your 1st Preference</option>
- 						<option value='1'>Aerospace Engineering</option>
+ 						<option value='4'>Banking & Finance</option>
+            <option value='10'>Management Consultancy</option>
+            <option value='23'>Entrepreneurship</option>
+            <option value='24'>Consulting</option>
+            <option value='25'>Data Analytics</option>
+            <option value='26'>Software Development</option>
+            <option value="27">Marketing</option>
+            <option value="28">Civil Services</option>
+            <optgroup label="Core Fields"></optgroup>
+            <option value='1'>Aerospace Engineering</option>
  						<option value='2'>Agricultural & Food Engineering</option>
  						<option value='3'>Architecture & Regional Planning</option>
- 						<option value='4'>Banking & Finance</option>
  						<option value='5'>Biotechnology</option>
  						<option value='6'>Civil Engineering</option>
  						<option value='7'>Chemical Engineering</option>
  						<option value='8'>Civil Services</option>
  						<option value='9'>Computer Science & Engineering</option>
- 						<option value='10'>Management Consultancy</option>
+ 						
  						<option value='11'>Chemistry</option>
  						<option value='12'>Electrical Engineering</option>
  						<option value='13'>Electronics & Electrical Communication Engineering</option>
- 						<option value='23'>Entrepreneurship</option>
+ 						
  						<option value='14'>Geology & Geophysics</option>
  						<option value='15'>Humanities & Social Sciences</option>
  						<option value='16'>Industrial & Systems Engineering</option>
@@ -1199,29 +1293,37 @@
  					<div class="col-sm-12">
  						<select name='pref2' class='form-control'>
  							<option value='-1'>Choose your 2nd Preference</option>
- 							<option value='1'>Aerospace Engineering</option>
- 							<option value='2'>Agricultural & Food Engineering</option>
- 							<option value='3'>Architecture & Regional Planning</option>
- 							<option value='4'>Banking & Finance</option>
- 							<option value='5'>Biotechnology</option>
- 							<option value='6'>Civil Engineering</option>
- 							<option value='7'>Chemical Engineering</option>
- 							<option value='8'>Civil Services</option>
- 							<option value='9'>Computer Science & Engineering</option>
- 							<option value='10'>Management Consultancy</option>
- 							<option value='11'>Chemistry</option>
- 							<option value='12'>Electrical Engineering</option>
- 							<option value='13'>Electronics & Electrical Communication Engineering</option>
- 							<option value='23'>Entrepreneurship</option>
- 							<option value='14'>Geology & Geophysics</option>
- 							<option value='15'>Humanities & Social Sciences</option>
- 							<option value='16'>Industrial & Systems Engineering</option>
- 							<option value='17'>Mathematics</option>
- 							<option value='18'>Mechanical Engineering</option>
- 							<option value='19'>Metallurgical & Materials Engineering</option>
- 							<option value='20'>Mining Engineering</option>
- 							<option value='21'>Ocean Engineering & Naval Architecture</option>
- 							<option value='22'>Physics</option>
+            <option value='4'>Banking & Finance</option>
+            <option value='10'>Management Consultancy</option>
+            <option value='23'>Entrepreneurship</option>
+            <option value='24'>Consulting</option>
+            <option value='25'>Data Analytics</option>
+            <option value='26'>Software Development</option>
+            <option value="27">Marketing</option>
+            <option value="28">Civil Services</option>
+            <optgroup label="Core Fields"></optgroup>
+            <option value='1'>Aerospace Engineering</option>
+            <option value='2'>Agricultural & Food Engineering</option>
+            <option value='3'>Architecture & Regional Planning</option>
+            <option value='5'>Biotechnology</option>
+            <option value='6'>Civil Engineering</option>
+            <option value='7'>Chemical Engineering</option>
+            <option value='8'>Civil Services</option>
+            <option value='9'>Computer Science & Engineering</option>
+            
+            <option value='11'>Chemistry</option>
+            <option value='12'>Electrical Engineering</option>
+            <option value='13'>Electronics & Electrical Communication Engineering</option>
+            
+            <option value='14'>Geology & Geophysics</option>
+            <option value='15'>Humanities & Social Sciences</option>
+            <option value='16'>Industrial & Systems Engineering</option>
+            <option value='17'>Mathematics</option>
+            <option value='18'>Mechanical Engineering</option>
+            <option value='19'>Metallurgical & Materials Engineering</option>
+            <option value='20'>Mining Engineering</option>
+            <option value='21'>Ocean Engineering & Naval Architecture</option>
+            <option value='22'>Physics</option>
  						</select>
  					</div>
  				</div>
@@ -1229,67 +1331,42 @@
  					<div class="col-sm-12">
  						<select name='pref3' class='form-control'>
  							<option value='-1'>Choose your 3rd Preference</option>
- 							<option value='1'>Aerospace Engineering</option>
- 							<option value='2'>Agricultural & Food Engineering</option>
- 							<option value='3'>Architecture & Regional Planning</option>
- 							<option value='4'>Banking & Finance</option>
- 							<option value='5'>Biotechnology</option>
- 							<option value='6'>Civil Engineering</option>
- 							<option value='7'>Chemical Engineering</option>
- 							<option value='8'>Civil Services</option>
- 							<option value='9'>Computer Science & Engineering</option>
- 							<option value='10'>Management Consultancy</option>
- 							<option value='11'>Chemistry</option>
- 							<option value='12'>Electrical Engineering</option>
- 							<option value='13'>Electronics & Electrical Communication Engineering</option>
- 							<option value='23'>Entrepreneurship</option>
- 							<option value='14'>Geology & Geophysics</option>
- 							<option value='15'>Humanities & Social Sciences</option>
- 							<option value='16'>Industrial & Systems Engineering</option>
- 							<option value='17'>Mathematics</option>
- 							<option value='18'>Mechanical Engineering</option>
- 							<option value='19'>Metallurgical & Materials Engineering</option>
- 							<option value='20'>Mining Engineering</option>
- 							<option value='21'>Ocean Engineering & Naval Architecture</option>
- 							<option value='22'>Physics</option>
+            <option value='4'>Banking & Finance</option>
+            <option value='10'>Management Consultancy</option>
+            <option value='23'>Entrepreneurship</option>
+            <option value='24'>Consulting</option>
+            <option value='25'>Data Analytics</option>
+            <option value='26'>Software Development</option>
+            <option value="27">Marketing</option>
+            <option value="28">Civil Services</option>
+            <optgroup label="Core Fields"></optgroup>
+            <option value='1'>Aerospace Engineering</option>
+            <option value='2'>Agricultural & Food Engineering</option>
+            <option value='3'>Architecture & Regional Planning</option>
+            <option value='5'>Biotechnology</option>
+            <option value='6'>Civil Engineering</option>
+            <option value='7'>Chemical Engineering</option>
+            <option value='8'>Civil Services</option>
+            <option value='9'>Computer Science & Engineering</option>
+            
+            <option value='11'>Chemistry</option>
+            <option value='12'>Electrical Engineering</option>
+            <option value='13'>Electronics & Electrical Communication Engineering</option>
+            
+            <option value='14'>Geology & Geophysics</option>
+            <option value='15'>Humanities & Social Sciences</option>
+            <option value='16'>Industrial & Systems Engineering</option>
+            <option value='17'>Mathematics</option>
+            <option value='18'>Mechanical Engineering</option>
+            <option value='19'>Metallurgical & Materials Engineering</option>
+            <option value='20'>Mining Engineering</option>
+            <option value='21'>Ocean Engineering & Naval Architecture</option>
+            <option value='22'>Physics</option>
  						</select>
  					</div>
  				</div>
  			</div>
- 			<h3 class="center"> Contact Details </h3>
- 			<div class="form-group">
- 				<div class="col-sm-12">
- 					<?php 
- 					$fphone = array('name' => 'phone',
- 						'class' => 'form-control',
- 						'placeholder' => 'Enter Your Phone No.',
- 						'type' =>'number',
- 						'required' => 'required');
- 					echo form_input($fphone);
- 					?>
- 				</div>
- 			</div>
- 			<div class="form-group">
- 				<div class="col-sm-12">
- 					<?php 
- 					$firm = array('name' => 'firm',
- 						'class' => 'form-control',
- 						'placeholder' => 'Enter Your Organisation');
- 					echo form_input($firm);
- 					?>
- 				</div>
- 			</div>
- 			<div class="form-group">
- 				<div class="col-sm-12">
- 					<?php 
- 					$fd = array('name' => 'des',
- 						'class' => 'form-control',
- 						'placeholder' => 'Enter Your Designation');
- 					echo form_input($fd);
- 					?>
- 				</div>
- 			</div>
- 
+ 			
  
  		</div>
  		<div class="form-group"	>	
