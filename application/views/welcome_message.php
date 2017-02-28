@@ -165,12 +165,30 @@
         font-size: 2em;
     }
 
+    @media screen and (min-width: 400px) {
+
+        .modal-dialog {
+          width: 80%; /* New width for default modal */
+        }
+        .modal-sm {
+          width: 80%; /* New width for small modal */
+        }
+    }
+
+    @media screen and (min-width: 992px) {
+        .modal-lg {
+          width: 950px; /* New width for large modal */
+        }
+    }
+
+
 
     </style>
  </head>
  <body>
+
  <div style="background-color: white;height: 90px;border-color:#2f4c73 " class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-     <div class="container">
+     
          <div class="navbar-header">
              <button style="display: none" type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-collapse">
                  <span class="sr-only">Toggle navigation</span>
@@ -181,7 +199,7 @@
              <a style="padding: 0px;margin-left: 0px" class="navbar-brand" href="#"><img height="93" src="img/samp_logo.png" alt=""></a>
          </div>
          <div id="nav_pc" style="margin-top: 1.4em" class="collapse navbar-collapse">
-             <button style="background-color:#2f4c73;border: 0px;font-stretch: expanded" onclick="window.open('img/brochure.pdf')"  class="btn btn-danger navbar-btn navbar-right">SAMP Brochure</button>
+             <button style="background-color:#2f4c73;border: 0px;font-stretch: expanded;margin-right: 3px;" onclick="window.open('img/brochure.pdf')"  class="btn btn-danger navbar-btn navbar-right">SAMP Brochure</button>
              <ul style=" margin-right: 10px"  class="nav navbar-nav navbar-right ">
 
                  <li class="nav_list"><a href="#">Home</a></li>
@@ -192,7 +210,6 @@
 
          </div>
 
-     </div>
 
  </div>
 
@@ -248,30 +265,32 @@
  
  </div>
     
- </div> <br>
+ </div>
  <hr> <br>
- <br><br><br><br> <br>
  <div class="container-fluid">
     <hr>
     <div class="row">
 
         <div style="width: 99.5%" class="row">
-            <div class=""></div>
-            <div  class="col-md-3" align="center" style="margin-left: 90px" >
+        <div class="col-md-1"></div>
+           
+            <div  class="col-md-3 col-xs-6 col-sm-6" align="center" >
                 <a data-toggle="modal" href="#registermentor" style="outline: none;">
                     <img class="card" src="img/mentor.png" style="width:300px;margin-top: 2em">
 
                 </a> </div>
-            <div class="col-md-3" align="center" style="border-right: 1px solid lightgrey;margin-top: 2em;">
+
+            <div class="col-md-3 col-xs-6 col-sm-6" align="center" style="border-right: 1px solid lightgrey;margin-top: 2em;">
                 <a data-toggle="modal" href="#registerstudent" data-target="#registerstudent">
                     <img class="card"  src="img/ente.png" style="max-width:300px;">
 
                 </a> </div>
+                <div class="col-md-0 col-xs-3 col-sm-3"></div>
 
-            <div style="width: 500px" class="col-md-5" align="center">
+            <div class="col-md-5 col-sm-6 col-xs-6" align="center">
                 <div class="row">
                     <h3>LOG IN</h3><br>
-                    <div class="col-md-12"></div>
+                    <div class="col-md-6 col-sm-6 col-xs-6" align="center">
                     <?php
                     $this->load->helper('form');
                     $for=array('class' => 'form-horizontal',
@@ -281,8 +300,9 @@
                     );
                     echo form_open('index.php/login',$for);
                     ?>
+                    </div>
 
-                    <div class="col-md-12">
+                    <div class="col-md-12" align="center">
                         <?php
                         $email1 = array('name' => 'eid' ,
                             'type' => 'email',
@@ -306,7 +326,7 @@
                     </div>
                     <br>
                     <hr>
-                    <div class="col-md-2" style="margin-right: 21px;padding-top: -5px;margin-top: -15px;margin-left: 36%">
+                    <div class="col-md-2" style="padding-top: -5px;margin-top: -15px;">
                         <button  style="background-color: #2f4c73" type="submit" class="btn btn-success">Log In</button>
                         </form>
                     </div>
@@ -626,7 +646,7 @@
     </ul>
  </footer>
  <div class="modal fade" id="registerstudent" role="dialog">
- 	<div class="modal-dialog">
+ 	<div class="modal-dialog modal-lg">
  
  		<!-- Modal content-->
  		<div class="modal-content">
@@ -1014,7 +1034,7 @@
  </div>
  </div>
  <div class="modal fade" id="registermentor" role="dialog">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
  
         <!-- Modal content-->
         <div class="modal-content">
