@@ -8,6 +8,7 @@
     <title>Welcome to Mentorship-Portal</title>
     <link rel='stylesheet' href='css/social_icon.css'>
  
+<<<<<<< HEAD
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <!-- Generic page styles -->
     <style type="text/css">
@@ -17,11 +18,20 @@
     }
      @media only screen and (max-width:769px){
    
+=======
+ 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+ 	<!-- Generic page styles -->
+ 	<style type="text/css">
+
+
+        @media only screen and (max-width:769px){
+>>>>>>> 93748a8707662d86789a82b8dc7144ce43b2ea9f
     #mentor_reg{
      margin-left: 0px;
     
     }
      }
+<<<<<<< HEAD
         ::selection { background-color: #E13300; color: white; }
         ::-moz-selection { background-color: #E13300; color: white; }
         #bg {
@@ -132,6 +142,117 @@
         } 
  
         input[type=number]::-webkit-inner-spin-button, 
+=======
+
+ 		#bg {
+ 			height: 400px;
+ 			width: 100%;
+ 			background-size:100% 100%;
+ 		}
+ 		#nav {
+ 			position: relative;
+ 			top: 20px;
+ 
+ 		} 
+ 		#quotes {
+ 			width: 60px;
+ 			height: 60px;
+ 		}
+ 		
+ 		#box2 {
+ 			padding: 10px;
+ 			min-height: 240px;
+ 			text-align: center;
+ 			background:rgba(255,255,255,.5);
+ 			position: relative;
+ 			margin-left:10px;
+ 			box-shadow: 0px 0px 4px #777;
+ 		}
+ 		div.al {
+ 			padding: 10px;
+ 			background:rgba(255,255,255,.75);
+ 			position: relative;
+ 			margin:2px auto;
+ 			text-align:justify;
+ 			box-shadow: 0px 0px 15px #777;
+ 			border-radius:7px; 
+ 		}
+ 		div.all {
+ 			padding: 10px;
+ 			background:rgba(255,255,255,.75);
+ 			position: relative;
+ 			margin:2px auto;
+ 			text-align:justify;
+ 			box-shadow: 0px 0px 10px #777; 
+ 		}
+ 		#logo
+ 		{
+ 			margin: 0 0 0 0 ;
+ 			padding: 0 0 0 0 ;
+ 		}
+ 		#register
+ 		{
+ 			padding: 0 0 10px 0;
+ 			width: 100%;
+ 		}
+ 		#register-btn
+ 		{
+ 			width: 100%;
+ 			line-height: 40px;
+ 			font-size: 20px;
+ 			color:black;
+ 			border-color: black;
+ 		}
+ 		#register-form
+ 		{
+ 			position: relative;
+ 			top: -20px;
+ 		}
+ 		.logo{
+ 			margin-top: 10px;
+ 			margin-bottom: 10px;
+ 		}
+ 		.white{
+ 			color: white;
+ 		}
+ 		.jumbotron {
+ 			text-align: center;
+ 			background-color: transparent;
+ 		}
+ 		.container a{
+ 			color: black;
+ 		}
+ 		.collapse {
+ 			text-align: justify;
+ 		}
+ 		.well {
+ 			/*background-color: transparent;*/
+ 		}
+ 		.list-group-item {
+ 			/*background-color: transparent;*/
+ 		}
+ 		#menu3 {
+ 			background-color: #87CEFA;
+ 			border-radius:10px; 
+ 		}
+ 		.abc {
+ 			text-align: center;
+ 			min-height: 670px;
+ 
+ 		}
+ 		.abc a {
+ 			text-decoration: none;
+ 			color: white;
+ 			opacity:;
+ 
+ 		}
+ 		.abc hr{			
+ 			color: black;
+ 			opacity: 0.8;
+ 		} 
+ 
+ 		input[type=number]::-webkit-inner-spin-button, 
+>>>>>>> 93748a8707662d86789a82b8dc7144ce43b2ea9f
  input[type=number]::-webkit-outer-spin-button { 
      -webkit-appearance: none;
      -moz-appearance: none;
@@ -153,6 +274,7 @@
         color: white;
         transition: .4s;
     }
+<<<<<<< HEAD
     @media only screen and (max-width:950px){
         .navbar-collapse.collapse{
             display: none!important;
@@ -161,6 +283,26 @@
     optgroup[label="Core Fields"]{
         font-size: 2em;
     }
+=======
+	@media only screen and (max-width:950px){
+
+		.navbar-collapse.collapse{
+			display: none!important;
+		}
+    }
+
+    .card{
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 11px 0 rgba(0, 0, 0, 0.19);
+    }
+    .card:hover{
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    optgroup[label="Core Fields"]{
+        font-size: 2em;
+    }
+
+>>>>>>> 93748a8707662d86789a82b8dc7144ce43b2ea9f
     </style>
  </head>
  <body>
@@ -186,8 +328,11 @@
              </ul>
 
          </div>
+
      </div>
+
  </div>
+
  <!-- <div class="navbar z-depth-5" style="background-color:white; margin-bottom: 0px;">
       <div class="row" style="margin-top: 5px;width: 99.9%">
           <div class="col-md-3">
@@ -202,9 +347,13 @@
           </div>
       </div>
      </div>
- -->
+ --><br><br><br><br>
 
+<<<<<<< HEAD
     <div id="bg">
+=======
+ 	<div id="bg" style="margin-top: 2px">
+>>>>>>> 93748a8707662d86789a82b8dc7144ce43b2ea9f
  
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
    <!-- Indicators -->
@@ -218,7 +367,7 @@
    <!-- Wrapper for slides -->
    <div class="carousel-inner" role="listbox" >
      <div class="item active">
-       <img src="img/width.jpg" style="width: 100vw; height: 600px;">
+       <img src="img/slider_img.png" style="width: 100vw;">
       
      </div>
  
@@ -247,6 +396,7 @@
     <hr>
     <div class="row">
 
+<<<<<<< HEAD
         
 <div class="col-md-2"> </div>
         <div class="col-md-8" style="position:relative;left:25px;">
@@ -274,39 +424,68 @@
                 );
                 echo form_open('index.php/login',$for);
                 ?>
+=======
+        <div style="width: 99.5%" class="row">
+            <div class=""></div>
+            <div  class="col-md-3" align="center" style="margin-left: 90px" >
+                <a data-toggle="modal" href="#registermentor" style="outline: none;">
+                    <img class="card" src="img/mentor.png" style="width:300px;margin-top: 2em">
 
-                <div class="col-md-12">
+                </a> </div>
+            <div class="col-md-3" align="center" style="border-right: 1px solid lightgrey;margin-top: 2em;">
+                <a data-toggle="modal" href="#registerstudent" data-target="#registerstudent">
+                    <img class="card"  src="img/ente.png" style="max-width:300px;">
+
+                </a> </div>
+>>>>>>> 93748a8707662d86789a82b8dc7144ce43b2ea9f
+
+            <div style="width: 500px" class="col-md-5" align="center">
+                <div class="row">
+                    <h3>LOG IN</h3><br>
+                    <div class="col-md-12"></div>
                     <?php
-                    $email1 = array('name' => 'eid' ,
-                        'type' => 'email',
-                        'class' => 'form-control',
-                        'placeholder' => 'Enter Your Email',
-                        'required' => 'required' );
-                    echo form_input($email1);
+                    $this->load->helper('form');
+                    $for=array('class' => 'form-horizontal',
+
+                        'method' => 'post',
+                        'role' => 'form',
+                    );
+                    echo form_open('index.php/login',$for);
                     ?>
-                </div>
-                <br>
-                <br>
-                <div class="col-md-12">
-                    <?php
-                    $pwd = array('name' => 'pass' ,
-                        'type' => 'password',
-                        'class' => 'form-control',
-                        'placeholder' => 'Enter Your Password',
-                        'required' => 'required' );
-                    echo form_input($pwd);
-                    ?>
-                </div>
-                <br>
-                <hr>
-                <div class="col-md-2" style="margin-right: 21px;padding-top: -5px;margin-top: -15px;margin-left: 36%">
-                    <button  type="submit" class="btn btn-success">Log In</button>
-                    </form>
+
+                    <div class="col-md-12">
+                        <?php
+                        $email1 = array('name' => 'eid' ,
+                            'type' => 'email',
+                            'class' => 'form-control',
+                            'placeholder' => 'Enter Your Email',
+                            'required' => 'required' );
+                        echo form_input($email1);
+                        ?>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="col-md-12">
+                        <?php
+                        $pwd = array('name' => 'pass' ,
+                            'type' => 'password',
+                            'class' => 'form-control',
+                            'placeholder' => 'Enter Your Password',
+                            'required' => 'required' );
+                        echo form_input($pwd);
+                        ?>
+                    </div>
+                    <br>
+                    <hr>
+                    <div class="col-md-2" style="margin-right: 21px;padding-top: -5px;margin-top: -15px;margin-left: 36%">
+                        <button  style="background-color: #2f4c73" type="submit" class="btn btn-success">Log In</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
 
 
+<<<<<<< HEAD
     </div>
       <hr> 
             <br>
@@ -383,6 +562,85 @@
 
                         <h3 id="faq" >Frequently Asked Questions</h3> <br>
                             
+=======
+        </div>
+<div class="col-md-2"> </div>
+		<div class="col-md-8" style="position:relative;left:25px;">
+
+      <hr> 
+ 			<br>
+ 			<div class="tab-content" style="width:100%">
+ 				<div style="margin-top: -2.5em;font-size: 1.1em" id="home" class="tab-pane fade in active">
+                    <center><h2>Mentorship Programme</h2></center>
+
+ 						The Student Alumni Mentorship programme was started in session 2010-11 by the Students’ Alumni Cell as an initiative to create a platform for the exchange of ideas and experience between the alumni and the current students of IIT Kharagpur.<br><br>
+ 						With an ocean of possibilities available, students often find it difficult to decide their way out into the future. There are lots of instances where students need  a mentor who can counsel and guide them through. The alumni can improve students' insight into various aspects of life.  Their journey and personal experiences can help the students and motivate them through this pivotal phase of life. Under this programme, we invite our alumni from across the world and from different fields to interact with the students and help them build their network and gain new perspective on the possibilities open to them after graduation.
+ 					<hr>
+ 				   <center><h2>Why choose this program</h2></center>
+ 						<h4  style="text-align:center;background-color:	#babfc6;color:white;border-radius:8px;">For Mentors</h4>
+ 						<p>As a successful member of the IIT Kharagpur alumni community, you have the power to inspire, motivate, and support IIT KGP students. Your knowledge, experience, and insight will help students open their eyes to the opportunities and challenges they will face after graduation.
+ 
+ 							When you serve as a mentor, you form meaningful, rewarding relationships that prepare students to be better employees and leaders, inspire them to stay connected with IIT Kharagpur, and motivate them to support the next generation of students. Mentors help perpetuate, grow, and strengthen IIT Kharagpur’s global alumni network.
+ 						</p>
+ 						<h4 style="text-align:center;background-color:	#babfc6;color:white;border-radius:8px;">For Mentees</h4>
+ 						<p>Mentees can expect to receive guidance to help them navigate various career options, learn invaluable skills for professional development and make new contacts expand their network.
+ 
+ 							Mentors and students form supportive relationships built on the shared experience of the KGP way of life, and connect one-on-one in a relaxed, informal way. It’s a valuable relationship that serves as an important complement to your classroom and action learning experiences, and makes for a richer KGP experience.
+ 						</p>
+            <hr>
+ 					
+ 			<center><h2 id="testimonials">Testimonials</h2></center>
+ 					
+ 						<div class="row" >
+ 							<div class="col-md-8">
+ 								<img src="img/a.png" alt="" id="quotes" />
+ 
+ 								<p>    Mentorship is crucial for any individual whether a student or professional, and its importance is essential especially during the formative years in college. I signed up for this program with the objective to gain perspective and seek help from our experienced and extremely friendly alumni. His guidance helped me think and understand about the outside world, gain industry knowledge and valuable fundas which helped me perform well in college and outside. They know what is valued more when it comes to the professional world, hence I always prioritized my mentors advice - specifically maintaining a good CGPA. Interacting and keeping in touch with my mentor also helped improving my networking skills and connecting to more people.   
+ 									<br>
+ 									<img src="img/b.png" alt="" id="quotes" class="pull-right" />
+ 
+ 									
+ 								</p>
+ 							</div>
+ 							
+ 							<div class="col-md-4" >	<br><br><img src="img/t2.jpg" class="img img-circle" width="200px" height="200px">
+ 								<br><br>	<b style="position:relative;left:60px;">Ankit Gupta</b>
+ 							</div>
+ 						</div><hr>
+ 						<div class="row">
+ 							<div class="col-md-8">
+ 								<img src="img/a.png" alt="" id="quotes" />
+ 								<p>      The Alumni Student mentorship program is a nice initiative by the Students’ Alumni Cell. In today’s time a direction and support from an esteemed mentor can go a long way in helping someone. It was a great experience for me as I got to learn a lot from my mentor who provided me with insight into the world after college as well as their experience as a student and in the professional sphere. Getting mentorship from an Alumni is a great thing as they can provide better help as they have been a part of the same institution as you."
+ 									<br>
+ 									<img src="img/b.png" alt="" id="quotes" class="pull-right" />
+ 
+ 									
+ 								</p></div>
+ 								
+ 								<div class="col-md-4"><br><img src="img/t3.jpg" class="img img-circle"  width="200px" height="200px"><br><br><b style="position:relative;left:60px;">Pranshu Agrawal</b></div>
+ 							</div><hr>
+ 							<div class="row">
+ 								<div class="col-md-8">
+ 									<img src="img/a.png" alt="" id="quotes" />
+ 									<p>The Student Alumni Mentorship Programme is probably one of the best
+ 										initiatives taken by our institution in recent years. Through my
+ 										association with it, I can only say that although the path was clear for
+ 										me, it was dark. My mentor came in the form a torchlight.
+ 										<br>
+ 										<img src="img/b.png" alt="" id="quotes" class="pull-right" />	
+ 									</p>
+ 								</div>
+ 								
+ 								<div class="col-md-4"><img src="img/t1.jpg" class="img img-circle" width="200px" height="200px"><br><br><b style="position:relative;left:60px;">Gobind Singh</b></div>
+ 							</p>
+ 						</div>
+ 					</div>
+ 				</div>
+        <hr>
+
+ 					 <center><h2 id="faq" >Frequently Asked Questions</h2> <br></center>
+ 							
+>>>>>>> 93748a8707662d86789a82b8dc7144ce43b2ea9f
  
                         <div class="row">
                             <div class="col-md-6">
@@ -618,6 +876,7 @@
     </ul>
  </footer>
  <div class="modal fade" id="registerstudent" role="dialog">
+<<<<<<< HEAD
     <div class="modal-dialog">
  
         <!-- Modal content-->
@@ -871,6 +1130,262 @@
             <div class="form-group" >
                 <div class="col-sm-12" >
                     <h4>In which field do you want to  be Mentored?</h4>
+=======
+ 	<div class="modal-dialog">
+ 
+ 		<!-- Modal content-->
+ 		<div class="modal-content">
+ 			<div class="modal-header">
+ 				<button type="button" class="close" data-dismiss="modal">&times;</button>
+ 				<h4 class="modal-title" style="text-align:center;">Register Here</h4>
+ 			</div>
+ 			<div class="modal-body">
+ 				<?php
+ 				$this->load->helper('form');
+ 				$a = array('class'=>'form-horizontal',
+ 					'method'=>'post',
+ 					'role'=>'form');
+ 				echo form_open('http://www.mentorship.iitkgp.ernet.in/index.php/users',$a);					
+
+ 				?>
+ 				<div class="form-group">
+ 					<div class="col-sm-12">
+ 						<?php
+ 						$fname = array('name' => 'name' ,
+ 							'class' => 'form-control',
+ 							'placeholder' => 'Enter Your Name',
+ 							'required' => 'required' );
+ 						echo form_input($fname);
+ 						?>
+ 					</div>
+ 
+ 
+ 
+ 				</div>
+ 
+ 				<div class="form-group">
+ 					<div class="col-sm-12">
+ 						<?php
+ 						$femail = array('name' => 'email' ,
+ 							'type' => 'email',
+ 							'class' => 'form-control',
+ 							'placeholder' => 'Enter Your Email',
+ 							'required' => 'required' );
+ 						echo form_input($femail);
+ 						?>
+ 					</div>
+ 
+ 
+ 
+ 				</div>
+ 				<div class="form-group">
+ 					<div class="col-sm-12">
+ 						<?php
+ 						$fpass = array('name' => 'password' ,
+ 							'class' => 'form-control',
+ 							'placeholder' => 'Enter Your Password',
+ 							'type' => 'password',
+ 							'required' => 'required' );
+ 						echo form_input($fpass);
+ 						?>
+ 					</div>
+ 
+ 
+ 
+ 				</div>
+ 			<!--
+ 			<div class="form-group">
+ 				<div class="col-sm-12">
+ 					<?php/*
+ 					$fp = array('name' => 'password1' ,
+ 						'class' => 'form-control',
+ 						'placeholder' => 'Enter Your Password Again',
+ 						'type' => 'password' );
+ 					echo form_input($fp);
+ 					*/?>
+ 				</div>
+ 			</div>
+ 		-->
+ 		<div class="form-group">
+ 			<div class="col-sm-12">
+ 				<select name='department' class='form-control' >
+ 					<option value='0'>Select Your Department</option>
+ 					<option value="AE">Aerospace Engineering</option>
+ 					<option value="AG">Agricultural & Food Engineering</option>
+ 					<option value="AR">Architecture & Regional Planning</option>
+ 					<option value="BT">Biotechnology</option>
+ 					<option value="CE">Civil Engineering</option>
+ 					<option value="CH">Chemical Engineering</option>
+ 					<option value="CS">Computer Science & Engineering</option>
+ 					<option value="CY">Chemistry</option>
+ 					<option value="EE">Electrical Engineering</option>
+ 					<option value="EC">Electronics & Electrical Communication Engineering</option>
+ 					<option value="GG">Geology & Geophysics</option>
+ 					<option value="HS">Humanities & Social Sciences</option>
+ 					<option value="IM">Industrial & Systems Engineering</option>
+ 					<option value="MA">Mathematics</option>
+ 					<option value="ME">Mechanical Engineering</option>
+ 					<option value="MT">Metallurgical & Materials Engineering</option>
+ 					<option value="MI">Mining Engineering</option>
+ 					<option value="NA">Ocean Engineering & Naval Architecture</option>
+ 					<option value="PH">Physics</option>
+ 					<option value="ATDC">Advanced Techology Development Center</option>
+ 					<option value="CET">Center for Educational Technology</option>
+ 					<option value=CYE"">Cryogenic Engineering</option>
+ 					<option value="MS">Materials Science</option>
+ 					<option value="ORALS">Oceans, Rivers, Atmosphere and Land Sciences</option>
+ 					<option value="CBE">P K Sinha Centre for Bio Energy</option>
+ 					<option value="REC">Reliability Engineering Centre</option>
+ 					<option value="RTC">Rubber Technology Centre</option>
+ 					<option value="RDC">Rural Development Centre</option>
+ 					<option value="GSSST">G S Sanyal School of Telecommunications</option>
+ 					<option value="IT">Information Technology</option>
+ 					<option value="RMSEE">Rajendra Mishra School of Engineering Entrepreneurship</option>
+ 					<option value="RGSIPL">Rajiv Gandhi School of Intellectual Property Law</option>
+ 					<option value="MST">Medical Science & Technology</option>
+ 					<option value="SB">School of Bioscience</option>
+ 					<option value="SEST">School of Environment Science and Technology</option>
+ 					<option value="SES">School of Energy Science</option>
+ 					<option value="SNST">School of Nano-Science and Technology</option>
+ 					<option value="SWS">School of Water Resources</option>
+ 					<option value="VGSOM">Vinod Gupta School of Management</option>
+ 
+ 				</select>	
+ 			</div>
+ 
+ 
+ 
+ 		</div>
+ 		<div class="form-group">
+ 			<div class="col-sm-12">
+ 				<select name='hall' class='form-control'>
+ 					<option value='0'>Select Your Hall</option>
+ 					<option value="SAM">Ashutosh Mukherjee  Hall</option>
+ 					<option value="AZ">Azad  Hall</option>
+ 					<option value="BCR">B C Roy  Hall</option>
+ 					<option value="BRAH">B R Ambedkar  Hall</option>
+ 					<option value="GH">Gokhale  Hall</option>
+ 					<option value="HJB">Homi Bhabha  Hall</option>
+ 					<option value="JCB">J C Bose  Hall</option>
+ 					<option value="LLR">Lala Lajpat Rai  Hall</option>
+ 					<option value="LBS">Lalbahadur Sastry  Hall</option>
+ 					<option value="MMM">Madan Mohan Malviya  Hall</option>
+ 					<option value="MS">Megnad Saha  Hall</option>
+ 					<option value="MT">Mother Teresa  Hall</option>
+ 					<option value="NH">Nehru  Hall</option>
+ 					<option value="PT">Patel  Hall</option>
+ 					<option value="RK">Radha Krishnan  Hall</option>
+ 					<option value="RP">Rajendra Prasad  Hall</option>
+ 					<option value="RLB">Rani Laxmibai  Hall</option>
+ 					<option value="SN">Sarojini Naidu / Indira Gandhi  Hall</option>
+ 					<option value="VS">Vidyasagar  Hall</option>
+ 					<option value="ZH">Zakir Hussain  Hall</option>
+ 				</select>					
+ 			</div>
+ 
+ 			<!--div class="form-group">
+ 				<div class="col-sm-12">
+ 					<?php
+ 					$fb = array(
+ 						'name' => '',
+ 						'class' => 'form-control',
+ 						'type' => 'submit',
+ 						'value' => 'Submit'
+ 						 );
+ 					echo form_button($fb);
+ 					?>
+ 				</div>	
+ 			</div-->
+ 			<?php //echo form_close(); 
+ 			?>
+ 
+ 		</div> 
+ 		<div id="">
+ 			<div class="form-group">
+ 				<div class="col-sm-12">
+ 					<?php
+ 					$froll = array('name' => 'roll' ,
+ 						'class' => 'form-control',
+ 						'placeholder' => 'Enter Your Roll',
+ 						'required' => 'required' );
+ 					echo form_input($froll);
+ 					?>
+ 				</div>
+ 
+ 
+ 
+ 			</div>
+ 			<div class="form-group">
+ 				<div class="col-sm-12">
+ 					<?php
+ 					$fcg = array('name' => 'cgpa' ,
+ 						'class' => 'form-control',
+ 						'type' => 'decimal',
+ 						'placeholder' => 'Enter Your Cgpa',
+ 						'required' => 'required' );
+ 					echo form_input($fcg);
+ 					?>
+ 				</div>
+ 
+ 
+ 
+ 			</div>
+ 			<div class="form-group">
+ 				<div class="col-sm-12">
+ 					<?php 
+ 					$fphone = array('name' => 'phone',
+ 						'class' => 'form-control',
+ 						'placeholder' => 'Enter Your Phone No.',
+ 						'type' => 'number',
+ 
+ 						'required' => 'required');
+ 					echo form_input($fphone);
+ 					?>
+ 				</div>
+ 			</div>
+ 
+ 			<div class="form-group">
+ 				<div class="col-sm-12">
+ 					<?php /*
+ 					$fcad = array('name' => 'current',
+ 						'class' => 'form-control',
+ 						'placeholder' => 'Enter Your Current Academic Year');
+ 					echo form_input($fcad);
+ 					*/?>
+ 					<select name='current' class='form-control'>
+ 						<option value='-1'>Choose your Current Academic Year</option>
+ 						<option value='1'>1</option>
+ 						<option value='2'>2</option>
+ 						<option value='3'>3</option>
+ 						<option value='4'>4</option>
+ 						<option value='5'>5</option>
+ 						<option value='6'>6</option>
+ 					</select>	
+ 				</div>
+ 
+ 			</div>
+ 			<div class="form-group">
+ 				<div class="col-sm-12">
+ 					<br>
+ 					<?php
+ 					$question1 = array('name' => 'q1',
+ 						'class' => 'form-control',
+ 						'placeholder' => 'What is the most important thing you wish to know from your mentor ?',
+ 						'required' => 'required');
+ 					echo form_input($question1);
+ 					echo '<br>';
+ 					$question2 = array('name' => 'q2',
+ 						'class' => 'form-control',
+ 						'placeholder' => 'What do you want to be done to facilitate mentorship for you?',
+ 						'required' => 'required');
+ 					echo form_input($question2);
+ 					?>
+ 				</div>
+ 			</div>
+ 			<div class="form-group" >
+ 				<div class="col-sm-12" >
+ 					<h4>In which field do you want to  be Mentored?</h4>
+>>>>>>> 93748a8707662d86789a82b8dc7144ce43b2ea9f
                     <select name='pref1' class='form-control'>
                     <option value='-1'>Choose your 1st Preference</option>
             <option value='4'>Banking & Finance</option>
@@ -906,12 +1421,21 @@
             <option value='22'>Physics</option>
 
                     </select>
+<<<<<<< HEAD
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-12">
                     <select name='pref2' class='form-control'>
                         <option value='-1'>Choose your 2nd Preference</option>
+=======
+ 				</div>
+ 			</div>
+ 			<div class="form-group">
+ 				<div class="col-sm-12">
+ 					<select name='pref2' class='form-control'>
+ 						<option value='-1'>Choose your 2nd Preference</option>
+>>>>>>> 93748a8707662d86789a82b8dc7144ce43b2ea9f
 
             <option value='4'>Banking & Finance</option>
             <option value='10'>Management Consultancy</option>
@@ -945,6 +1469,7 @@
             <option value='21'>Ocean Engineering & Naval Architecture</option>
             <option value='22'>Physics</option>
 
+<<<<<<< HEAD
                     </select>
                 </div>
             </div>
@@ -953,6 +1478,16 @@
                     <select name='pref3' class='form-control'>
                          <option value='-1'>Choose your 3rd Preference</option>
             <option value='4'>Banking & Finance</option>
+=======
+ 					</select>
+ 				</div>
+ 			</div>
+ 			<div class="form-group">
+ 				<div class="col-sm-12">
+ 					<select name='pref3' class='form-control'>
+ 						 <option value='-1'>Choose your 3rd Preference</option>
+         <option value='4'>Banking & Finance</option>
+>>>>>>> 93748a8707662d86789a82b8dc7144ce43b2ea9f
             <option value='10'>Management Consultancy</option>
             <option value='23'>Entrepreneurship</option>
             <option value='24'>Consulting</option>
@@ -1147,6 +1682,7 @@
             <div class="form-group">
                 <div class="col-sm-3">
 
+<<<<<<< HEAD
                     <h4>Preferred No. Of Mentees</h4>
                 </div>
                 <div class="col-sm-4">
@@ -1164,6 +1700,25 @@
                     <select name='pref1' class='form-control'>
                         <option value='-1'>Choose your 1st Preference</option>
                         <option value='4'>Banking & Finance</option>
+=======
+ 					<h4>Preferred No. Of Mentees</h4>
+ 				</div>
+ 				<div class="col-sm-4">
+ 					<select name='mentee' class="form-control">
+ 						<option value="1">One</option>
+ 						<option value="2">Two</option>
+ 						<option value="3">Three</option>
+ 						<option value="4">Four</option>
+ 					</select>
+ 				</div>
+ 			</div>
+ 			<h4>In which field do you want to Mentor in?</h4>
+ 			<div class="form-group">
+ 				<div class="col-sm-12">
+ 					<select name='pref1' class='form-control'>
+ 						<option value='-1'>Choose your 1st Preference</option>
+ 						  <option value='4'>Banking & Finance</option>
+>>>>>>> 93748a8707662d86789a82b8dc7144ce43b2ea9f
             <option value='10'>Management Consultancy</option>
             <option value='23'>Entrepreneurship</option>
             <option value='24'>Consulting</option>
@@ -1194,6 +1749,7 @@
             <option value='20'>Mining Engineering</option>
             <option value='21'>Ocean Engineering & Naval Architecture</option>
             <option value='22'>Physics</option>
+<<<<<<< HEAD
                     </select>
                 </div>
             </div>
@@ -1214,6 +1770,28 @@
                         <select name='pref2' class='form-control'>
                             <option value='-1'>Choose your 2nd Preference</option>
                             <option value='4'>Banking & Finance</option>
+=======
+ 					</select>
+ 				</div>
+ 			</div>
+ 			<div class="form-group">
+ 				<div class="col-sm-12">
+ 					<select  onchange="f1(this)" class='form-control'>
+ 						<option value='-1'>Do You Want More Preferences</option>
+ 						<option >Yes</option>
+ 						<option>No</option>
+ 					</select>
+ 				</div>
+ 			</div>
+ 			
+ 			
+ 			<div id="f1" style="display:none;">
+ 				<div class="form-group">
+ 					<div class="col-sm-12">
+ 						<select name='pref2' class='form-control'>
+ 							<option value='-1'>Choose your 2nd Preference</option>
+ 							  <option value='4'>Banking & Finance</option>
+>>>>>>> 93748a8707662d86789a82b8dc7144ce43b2ea9f
             <option value='10'>Management Consultancy</option>
             <option value='23'>Entrepreneurship</option>
             <option value='24'>Consulting</option>
@@ -1244,6 +1822,7 @@
             <option value='20'>Mining Engineering</option>
             <option value='21'>Ocean Engineering & Naval Architecture</option>
             <option value='22'>Physics</option>
+<<<<<<< HEAD
                         </select>
                     </div>
                 </div>
@@ -1252,6 +1831,16 @@
                         <select name='pref3' class='form-control'>
                             <option value='-1'>Choose your 3rd Preference</option>
                            <option value='4'>Banking & Finance</option>
+=======
+ 						</select>
+ 					</div>
+ 				</div>
+ 				<div class="form-group">
+ 					<div class="col-sm-12">
+ 						<select name='pref3' class='form-control'>
+ 							<option value='-1'>Choose your 3rd Preference</option>
+ 							  <option value='4'>Banking & Finance</option>
+>>>>>>> 93748a8707662d86789a82b8dc7144ce43b2ea9f
             <option value='10'>Management Consultancy</option>
             <option value='23'>Entrepreneurship</option>
             <option value='24'>Consulting</option>
@@ -1282,6 +1871,7 @@
             <option value='20'>Mining Engineering</option>
             <option value='21'>Ocean Engineering & Naval Architecture</option>
             <option value='22'>Physics</option>
+<<<<<<< HEAD
                         </select>
                     </div>
                 </div>
@@ -1329,6 +1919,55 @@
         </div>
  
     </form>
+=======
+ 						</select>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<h3 class="center"> Contact Details </h3>
+ 			<div class="form-group">
+ 				<div class="col-sm-12">
+ 					<?php 
+ 					$fphone = array('name' => 'phone',
+ 						'class' => 'form-control',
+ 						'placeholder' => 'Enter Your Phone No.',
+ 						'type' =>'number',
+ 						'required' => 'required');
+ 					echo form_input($fphone);
+ 					?>
+ 				</div>
+ 			</div>
+ 			<div class="form-group">
+ 				<div class="col-sm-12">
+ 					<?php 
+ 					$firm = array('name' => 'firm',
+ 						'class' => 'form-control',
+ 						'placeholder' => 'Enter Your Organisation');
+ 					echo form_input($firm);
+ 					?>
+ 				</div>
+ 			</div>
+ 			<div class="form-group">
+ 				<div class="col-sm-12">
+ 					<?php 
+ 					$fd = array('name' => 'des',
+ 						'class' => 'form-control',
+ 						'placeholder' => 'Enter Your Designation');
+ 					echo form_input($fd);
+ 					?>
+ 				</div>
+ 			</div>
+ 
+ 
+ 		</div>
+ 		<div class="form-group"	>	
+ 			<div class="col-sm-12">		
+ 				<button   name="sub2" style="width:100%" class="btn btn-lg btn-success" >Submit</button>		
+ 			</div>			
+ 		</div>
+ 
+ 	</form>
+>>>>>>> 93748a8707662d86789a82b8dc7144ce43b2ea9f
  
  </div>
  
