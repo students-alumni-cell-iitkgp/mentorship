@@ -187,7 +187,7 @@
  </head>
  <body>
 
- <div style="background-color: white;height: 90px;border-color:#2f4c73 " class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+ <div style="background-color: white;height: 90px;border-color:#2f4c73;" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
      
          <div class="navbar-header">
              <button style="display: none" type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-collapse">
@@ -302,7 +302,7 @@
                     ?>
                     </div>
 
-                    <div class="col-md-12" align="center">
+                    <div class="col-md-12 col-sm-12 col-xs-12 " align="center">
                         <?php
                         $email1 = array('name' => 'eid' ,
                             'type' => 'email',
@@ -314,7 +314,7 @@
                     </div>
                     <br>
                     <br>
-                    <div class="col-md-12">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
                         <?php
                         $pwd = array('name' => 'pass' ,
                             'type' => 'password',
@@ -336,7 +336,7 @@
 
         </div>
 <div class="col-md-2"> </div>
-		<div class="col-md-8" style="position:relative;left:25px;">
+		<div class="col-md-8 col-sm-12 col-xs-12" style="position:relative;left:25px;">
 
       <hr> 
  			<br>
@@ -344,10 +344,11 @@
  				<div style="margin-top: -2.5em;font-size: 1.1em" id="home" class="tab-pane fade in active">
                     <center><h2>Mentorship Programme</h2></center>
 
- 						The Student Alumni Mentorship programme was started in session 2010-11 by the Students’ Alumni Cell as an initiative to create a platform for the exchange of ideas and experience between the alumni and the current students of IIT Kharagpur.<br><br>
- 						With an ocean of possibilities available, students often find it difficult to decide their way out into the future. There are lots of instances where students need  a mentor who can counsel and guide them through. The alumni can improve students' insight into various aspects of life.  Their journey and personal experiences can help the students and motivate them through this pivotal phase of life. Under this programme, we invite our alumni from across the world and from different fields to interact with the students and help them build their network and gain new perspective on the possibilities open to them after graduation.
+ 						<p>The Student Alumni Mentorship programme was started in session 2010-11 by the Students’ Alumni Cell as an initiative to create a platform for the exchange of ideas and experience between the alumni and the current students of IIT Kharagpur.<br><br>
+ 						With an ocean of possibilities available, students often find it difficult to decide their way out into the future. There are lots of instances where students need  a mentor who can counsel and guide them through. The alumni can improve students' insight into various aspects of life.  Their journey and personal experiences can help the students and motivate them through this pivotal phase of life. Under this programme, we invite our alumni from across the world and from different fields to interact with the students and help them build their network and gain new perspective on the possibilities open to them after graduation.</p>
  					<hr>
- 				   <center><h2>Why choose this program</h2></center>
+ 				   <center>
+                   <h2>Why choose this program</h2></center>
  						<h4  style="text-align:center;background-color:	#babfc6;color:white;border-radius:8px;">For Mentors</h4>
  						<p>As a successful member of the IIT Kharagpur alumni community, you have the power to inspire, motivate, and support IIT KGP students. Your knowledge, experience, and insight will help students open their eyes to the opportunities and challenges they will face after graduation.
  
