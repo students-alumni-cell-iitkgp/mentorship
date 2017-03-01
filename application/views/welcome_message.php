@@ -262,7 +262,7 @@
  
  </div>
     
- </div>
+ </div><br> <br> <br> <br>
  <hr> <br>
  <div class="container-fluid">
     <hr>
@@ -295,7 +295,7 @@
                         'method' => 'post',
                         'role' => 'form',
                     );
-                    echo form_open('index.php/login',$for);
+                    echo form_open('http://www.mentorship.iitkgp.ernet.in/index.php/login',$for);
                     ?>
                     </div>
 
