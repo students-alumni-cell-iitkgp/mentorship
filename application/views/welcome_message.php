@@ -236,7 +236,7 @@
    <ol class="carousel-indicators">
      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
      <li data-target="#myCarousel" data-slide-to="1"></li>
-     <!-- <li data-target="#myCarousel" data-slide-to="2"></li> -->
+     <li data-target="#myCarousel" data-slide-to="2"></li>
      <!-- <li data-target="#myCarousel" data-slide-to="3"></li> -->
    </ol>
  
@@ -250,10 +250,9 @@
        <img src="img/slider2.jpg" style="width: 100vw;">
        </div>
  
-     <!-- <div class="item"> -->
-       <!-- <img src="img/mentorshipsliderthree.png" style="width: 100vw; height: 450px;"> -->
-       
-     <!-- </div> -->
+     <div class="item">
+       <img src="img/slider3.jpg" style="width: 100vw;">
+     </div>
  
      <!-- <div class="item"> -->
        <!-- <img src="img/mentorshipsliderfour.jpg"  style="width: 100vw; height: 450px;"> -->
