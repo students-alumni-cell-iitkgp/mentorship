@@ -358,7 +358,7 @@
  						</p>
             <hr>
  					
- 			<center><h2 id="testimonials">Testimonials</h2></center>
+ 			<center><h2 id="testimonials"><br> <br> <br> Testimonials</h2></center>
  					
  						<div class="row" >
  							<div class="col-md-8">
@@ -407,7 +407,7 @@
  				</div>
         <hr>
 
- 					 <center><h2 id="faq" >Frequently Asked Questions</h2> <br></center>
+ 					 <center><h2 id="faq"> <br> <br> <br>Frequently Asked Questions</h2> <br></center>
  							
  
                         <div class="row">
