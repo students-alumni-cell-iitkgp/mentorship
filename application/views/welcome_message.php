@@ -748,6 +748,7 @@
  					<option value="MS">Materials Science</option>
  					<option value="ORALS">Oceans, Rivers, Atmosphere and Land Sciences</option>
  					<option value="CBE">P K Sinha Centre for Bio Energy</option>
+                    <option value="RCIM">Ranbir and Chitra Gupta School of Infrastructure Design and Management</option>
  					<option value="REC">Reliability Engineering Centre</option>
  					<option value="RTC">Rubber Technology Centre</option>
  					<option value="RDC">Rural Development Centre</option>
@@ -1141,6 +1142,7 @@
                     <option value="RDC">Rural Development Centre</option>
                     <option value="GSSST">G S Sanyal School of Telecommunications</option>
                     <option value="IT">Information Technology</option>
+                    <option value="RCIM">Ranbir and Chitra Gupta School of Infrastructure Design and Management</option>
                     <option value="RMSEE">Rajendra Mishra School of Engineering Entrepreneurship</option>
                     <option value="RGSIPL">Rajiv Gandhi School of Intellectual Property Law</option>
                     <option value="MST">Medical Science & Technology</option>
