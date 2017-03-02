@@ -784,7 +784,7 @@
  					<option value="HJB">Homi Bhabha  Hall</option>
  					<option value="JCB">J C Bose  Hall</option>
  					<option value="LLR">Lala Lajpat Rai  Hall</option>
- 					<option value="LBS">Lalbahadur Sastry  Hall</option>
+ 					<option value="LBS">Lal Bahadur Shastri </option>
  					<option value="MMM">Madan Mohan Malviya  Hall</option>
  					<option value="MS">Megnad Saha  Hall</option>
  					<option value="MT">Mother Teresa  Hall</option>
@@ -1188,7 +1188,7 @@
  					</select>
  				</div>
  			</div>
- 			<h4>In which field do you want to Mentor in?</h4>
+ 			<h4>In which field do you want to Mentor?</h4>
  			<div class="form-group">
  				<div class="col-sm-12">
  					<select name='pref1' class='form-control'>
