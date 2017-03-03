@@ -892,7 +892,7 @@
  					echo '<br>';
  					$question2 = array('name' => 'q2',
  						'class' => 'form-control',
- 						'placeholder' => 'How can we facilitate mentorship for you ?',
+ 						'placeholder' => 'What do you expect from this programmme?',
  						'required' => 'required');
  					echo form_input($question2);
  					?>
