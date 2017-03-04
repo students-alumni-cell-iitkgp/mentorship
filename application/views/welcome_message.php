@@ -835,7 +835,7 @@
  					$fcg = array('name' => 'cgpa' ,
  						'class' => 'form-control',
  						'type' => 'decimal',
- 						'placeholder' => 'Enter Your Cgpa',
+ 						'placeholder' => 'Enter Your CGPA',
  						'required' => 'required' );
  					echo form_input($fcg);
  					?>
@@ -890,7 +890,7 @@
  					echo '<br>';
  					$question2 = array('name' => 'q2',
  						'class' => 'form-control',
- 						'placeholder' => 'What do you expect from this programmme?',
+ 						'placeholder' => 'What are your major reasons for joining the mentorship programme ?',
  						'required' => 'required');
  					echo form_input($question2);
  					?>
