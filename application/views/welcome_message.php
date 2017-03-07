@@ -794,6 +794,7 @@
  					<option value="SN">Sarojini Naidu / Indira Gandhi  Hall</option>
  					<option value="VS">Vidyasagar  Hall</option>
  					<option value="ZH">Zakir Hussain  Hall</option>
+                    <option value="VSRC">Vikram Sarabhai Residential Complex</option>
  				</select>					
  			</div>
  
