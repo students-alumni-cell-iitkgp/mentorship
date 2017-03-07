@@ -273,13 +273,13 @@
            
             <div  class="col-md-3 col-xs-6 col-sm-6" align="center" >
                 <a data-toggle="modal" href="#registermentor" style="outline: none;">
-                    <img class="card" src="img/mentor.png" style="width:300px;margin-top: 2em">
+                    <img class="card" src="img/mentor.png" alt="Mentor Registration" style="width:300px;margin-top: 2em">
 
                 </a> </div>
 
             <div class="col-md-3 col-xs-6 col-sm-6" align="center" style="border-right: 1px solid lightgrey;margin-top: 2em;">
                 <a data-toggle="modal" href="#registerstudent" data-target="#registerstudent">
-                    <img class="card"  src="img/ente.png" style="max-width:300px;">
+                    <img class="card"  src="img/ente.png" alt="Mentee Registration" style="max-width:300px;">
 
                 </a> </div>
                 <div class="col-md-0 col-xs-3 col-sm-3"></div>
@@ -793,9 +793,9 @@
  					<option value="RLB">Rani Laxmibai  Hall</option>
  					<option value="SN">Sarojini Naidu / Indira Gandhi  Hall</option>
  					<option value="VS">Vidyasagar  Hall</option>
- 					<option value="ZH">Zakir Hussain  Hall</option>
-                    <option value="VSRC">Vikram Sarabhai Residential Complex</option>
- 				</select>					
+ 					<option value="VSRC">Vikram Sarabhai Residential Complex</option>
+                    <option value="ZH">Zakir Hussain  Hall</option>
+                    </select>					
  			</div>
  
  			<!--div class="form-group">
