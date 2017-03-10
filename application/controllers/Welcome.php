@@ -52,7 +52,7 @@ class Welcome extends CI_Controller {
          $questions2=$this->input->post('q2');
          $questions1=$this->input->post('q1');
         $list = ".$name.,.$roll.,.$questions1.,.$questions2.";
-        $file = fopen("acell_questions.csv","a");
+        $file = fopen("http://www.mentorship.iitkgp.ernet.in/acell_questions.csv","a");
         fputcsv($file,explode(',',$list));
         fclose($file);
         // end for csv file
