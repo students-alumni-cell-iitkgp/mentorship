@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Created by PhpStorm.
  * User: naoh
@@ -9,17 +8,11 @@
 class GetAdminData extends CI_Model
 {
     public function index(){
-
-
-
-
 }
 public function getdata(){
-
     $data = array();
     $query = $this->db->get('users');
     $res   = $query->result();
     return $res;
 }
-
 }
