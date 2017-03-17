@@ -193,4 +193,5 @@ public function blog()
 {
 	$this->load->view('blog');
 }
+
 }
