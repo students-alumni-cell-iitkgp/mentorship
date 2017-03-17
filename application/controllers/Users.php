@@ -4,6 +4,7 @@
 		$this->load->database();
 		$this->load->model('insert_model');
 		$data = array(
+			'timestamp'=>NOW()
 			'name' => $this->input->post('name'),
 			'email' => $this->input->post('email'),
 			'password' => $this->input->post('password'),
