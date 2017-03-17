@@ -208,7 +208,7 @@
 
                  <li class="nav_list"><a href="#bg">Home</a></li>
                  <li class="nav_list"><a href="#testimonials">Testimonials</a></li>
-                 <li class="nav_list"><a href="http://www.mentorship.iitkgp.ernet.in/index.php/users">FAQs</a></li>
+                 <li class="nav_list"><a href="http://www.mentorship.iitkgp.ernet.in/index.php/faq">FAQs</a></li>
                  <li class="nav_list"><a href="#contact">Contact us</a></li>
              </ul>
 
