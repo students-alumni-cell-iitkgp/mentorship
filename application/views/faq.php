@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <link rel="icon" href="img/p.png">
     <title>Welcome to Mentorship-Portal</title>
-    <link rel='stylesheet' href='css/social_icon.css'>
+    <link rel='stylesheet' href='../css/social_icon.css'>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -408,7 +408,7 @@
                         </div>
     <div class="row" style="text-align:center">
         <div class="col-md-12">
-            <center><h2><br>Mentorship Tips</h2> <br></center>
+            <center><h2><br>How to go about Mentorship Programme?</h2> <br></center>
             <h4><i>"Like all good relationships, mentorship is also a two-way street."</i></h2><br>
         </div>
         <div class="col-md-6 para-left">
@@ -462,8 +462,17 @@
             <p>Direct, actionable feedback is a gift. Look for opportunities to give your mentee specific input for improving performance and learning new skills. Whenever possible, share your input in the moment, when it’s most effective. If you hold back to protect your mentee’s feelings, you’re not helping them. Remember, your honest feedback will help them advance more quickly.</p>
             </center>
         </div>
+    </div> <br>
+    <footer style="background-color:black; color:white; text-align:center; padding:10px; position:relative; bottom:0px; width:100%">&copy; Students' Alumni Cell, IIT Kharagpur
+    <ul class="soc">
+        <li><a class="soc-facebook"  href="//www.facebook.com/iitkgp.alumnicell?fref=ts&ref=br_tf" target="_blank"></a></li>
+        <li><a class="soc-twitter"   href="//twitter.com/IITKgpAlumni"target="_blank"></a></li>
+        <li><a class="soc-linkedin"  href="//www.linkedin.com/edu/school?id=13500&trk=prof-following-school-logo"target="_blank"></a></li>
+        <li><a class="soc-youtube soc-icon-last" href="//www.youtube.com/channel/UCtnSs1CT59Rd8L6VlOAxzRA"target="_blank"></a></li>
+    </ul>
+ </footer>
     </div>
-    </div>
+    
  </body>
  
 
