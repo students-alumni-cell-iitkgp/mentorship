@@ -213,6 +213,30 @@
  </head>
  <body>
 
+ <div style="background-color: white;height: 90px;border-color:#2f4c73;" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+     
+         <div class="navbar-header">
+             <button style="display: none" type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-collapse">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+             </button>
+             <a style="padding: 0px;margin-left: 0px" class="navbar-brand" href="#"><img height="93" src="../img/samp_logo.png" alt=""></a>
+         </div>
+         <div id="nav_pc" style="margin-top: 1.4em" class="collapse navbar-collapse">
+
+             <ul style=" margin-right: 10px"  class="nav navbar-nav navbar-right ">
+
+                 <li class="nav_list"><a href="http://www.mentorship.iitkgp.ernet.in">Home</a></li>
+                 <li class="nav_list"><a href="#contact">Contact us</a></li>
+             </ul>
+
+         </div>
+
+
+ </div> <br> <br>
+
  <div class="container-fluid">
     <div class="row" style="text-align:center">
                      <center><h2><br><br>Frequently Asked Questions</h2> <br></center>
@@ -406,10 +430,11 @@
                                 </div><!--container24 ends -->
                             </div><!--col-md-6 ends -->
                         </div>
+
     <div class="row" style="text-align:center">
         <div class="col-md-12">
             <center><h2><br>How to go about Mentorship Programme?</h2> <br></center>
-            <h4><i>"Like all good relationships, mentorship is also a two-way street."</i></h2><br>
+            <h4><i>"Like all good relationships, mentorship is also a two-way street."</i></h4><br>
         </div>
         <div class="col-md-6 para-left">
             <center>
@@ -459,10 +484,43 @@
             <center>
             <h3 id="circle">Mentor</h3>
             <h3>Give open, honest input-even when it’s hard</h3>
-            <p>Direct, actionable feedback is a gift. Look for opportunities to give your mentee specific input for improving performance and learning new skills. Whenever possible, share your input in the moment, when it’s most effective. If you hold back to protect your mentee’s feelings, you’re not helping them. Remember, your honest feedback will help them advance more quickly.</p>
+            <p>Direct, actionable feedback is a gift. Look for opportunities to give your mentee specific input for improving performance and learning new skills. Whenever possible, share your input in the moment, when it’s most effective. If you hold back to protect your mentee’s feelings, you’re not helping them. Remember, your honest feedback will help them advance more quickly.<br> <br> <br></p>
             </center>
         </div>
-    </div> <br>
+
+        <h3 id="contact">Contact Us</h3>
+                <hr>
+    <div align="center">
+
+        <h2>Students' Alumni Cell</h2>
+        <h3>Office of Alumni Affairs & International Relations</h3>
+        <p>Indian Institute of Technology, Kharagpur</p>
+        <p>West Bengal, India. Pin :- 721302</p>
+        <!-- <p>Email: aao@hijli.iitkgp.ernet.in</p> -->
+        <p>Phone: +91-3222-281860</p>
+        <!-- <p>Email: mentorship@adm.iitkgp.ernet.in</p> -->
+        <p>In case of any suggestions or query please feel free to write to us at <a href="mailto: mentorship@adm.iitkgp.ernet.in">mentorship@adm.iitkgp.ernet.in</a></p>
+          <a href="http://www.sac.iitkgp.ac.in/team.php" target="_blank" style="width: 50%;" class="btn btn-success btn-block">
+                                    View Complete Team
+                                </a> </div>
+                            
+
+                            <br>
+                            
+                            <div class="row">
+ 
+
+                                <div class="col-md-4" style="font:bold 15px Calibri; text-align:center">
+                                    Vaibhav Chauhan<br>vaibhavchauhan612@gmail.com <br>+918145844393</div>
+ 
+                                    
+                                    <div class="col-md-4" style="font:bold 15px Calibri; text-align:center">
+                                        Mridul Pant <br>mridul2010@gmail.com<br>+919933935867</div> 
+                                    
+                                <div class="col-md-4" style="position:relative;font:bold 15px Calibri; text-align:center">
+                                Shruti Sagar<br>shruti.sagar.iitkgp@gmail.com  <br>+919933952668 </div> </div>
+
+    </div> <br> </div> </div>
     <footer style="background-color:black; color:white; text-align:center; padding:10px; position:relative; bottom:0px; width:100%">&copy; Students' Alumni Cell, IIT Kharagpur
     <ul class="soc">
         <li><a class="soc-facebook"  href="//www.facebook.com/iitkgp.alumnicell?fref=ts&ref=br_tf" target="_blank"></a></li>
@@ -471,7 +529,6 @@
         <li><a class="soc-youtube soc-icon-last" href="//www.youtube.com/channel/UCtnSs1CT59Rd8L6VlOAxzRA"target="_blank"></a></li>
     </ul>
  </footer>
-    </div>
     
  </body>
  
