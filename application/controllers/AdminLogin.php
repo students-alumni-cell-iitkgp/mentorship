@@ -24,8 +24,8 @@ class AdminLogin extends CI_Controller
         $password = $this->input->post('pass');
         if ($email=='acell@admin.login' && $password=='AcellLoginMentorshippass'){
 
-            $this->load->model('getadmindata');
-            $res = $this->getadmindata->getdata();
+            $this->load->model('GetAdminData');
+            $res = $this->GetAdminData->getdata();
             if($res){
                 $data['result'] = $res;
                 $this->load->view('admininfodata', $data);
