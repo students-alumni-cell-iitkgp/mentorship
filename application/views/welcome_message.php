@@ -716,7 +716,6 @@
                     <select name='pref1' class='form-control'>
                     <option value='-1'>Choose your 1st Preference</option>
             <option value='4'>Banking & Finance</option>
-            <option value='10'>Management Consultancy</option>
             <option value='23'>Entrepreneurship</option>
             <option value='24'>Consulting</option>
             <option value='25'>Data Analytics</option>
@@ -730,7 +729,6 @@
             <option value='5'>Biotechnology</option>
             <option value='6'>Civil Engineering</option>
             <option value='7'>Chemical Engineering</option>
-            <option value='8'>Civil Services</option>
             <option value='9'>Computer Science & Engineering</option>
             
             <option value='11'>Chemistry</option>
