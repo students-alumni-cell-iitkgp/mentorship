@@ -12,6 +12,9 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- Generic page styles -->
     <style type="text/css">
+    a{
+    color: #000000!important;
+}
     body{
         
       font-family: Century gothic;
