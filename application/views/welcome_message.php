@@ -716,6 +716,7 @@
                     <select name='pref1' class='form-control'>
                     <option value='-1'>Choose your 1st Preference</option>
             <option value='4'>Banking & Finance</option>
+             <option value='10'>Management Consultancy</option>
             <option value='23'>Entrepreneurship</option>
             <option value='24'>Consulting</option>
             <option value='25'>Data Analytics</option>
