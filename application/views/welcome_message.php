@@ -208,7 +208,7 @@
 
                  <li class="nav_list"><a href="#bg">Home</a></li>
                  <li class="nav_list"><a href="#testimonials">Testimonials</a></li>
-                 <li class="nav_list"><a href="http://www.mentorship.iitkgp.ernet.in/index.php/faq">FAQs</a></li>
+                 <li class="nav_list"><a href="http://www.mentorship.iitkgp.ernet.in/index.php/faq" >FAQs</a></li>
                  <li class="nav_list"><a href="https://medium.com/@studentsalumnicell.iitkgp">Share Your Story</a></li>
                  <li class="nav_list"><a href="#contact">Contact us</a></li>
              </ul>
@@ -716,7 +716,6 @@
                     <select name='pref1' class='form-control'>
                     <option value='-1'>Choose your 1st Preference</option>
             <option value='4'>Banking & Finance</option>
-            <option value='10'>Management Consultancy</option>
             <option value='23'>Entrepreneurship</option>
             <option value='24'>Consulting</option>
             <option value='25'>Data Analytics</option>
@@ -730,7 +729,6 @@
             <option value='5'>Biotechnology</option>
             <option value='6'>Civil Engineering</option>
             <option value='7'>Chemical Engineering</option>
-            <option value='8'>Civil Services</option>
             <option value='9'>Computer Science & Engineering</option>
             
             <option value='11'>Chemistry</option>
@@ -756,7 +754,6 @@
  						<option value='-1'>Choose your 2nd Preference</option>
 
             <option value='4'>Banking & Finance</option>
-            <option value='10'>Management Consultancy</option>
             <option value='23'>Entrepreneurship</option>
             <option value='24'>Consulting</option>
             <option value='25'>Data Analytics</option>
@@ -770,7 +767,6 @@
             <option value='5'>Biotechnology</option>
             <option value='6'>Civil Engineering</option>
             <option value='7'>Chemical Engineering</option>
-            <option value='8'>Civil Services</option>
             <option value='9'>Computer Science & Engineering</option>
             
             <option value='11'>Chemistry</option>
@@ -795,7 +791,7 @@
  					<select name='pref3' class='form-control'>
  						 <option value='-1'>Choose your 3rd Preference</option>
          <option value='4'>Banking & Finance</option>
-            <option value='10'>Management Consultancy</option>
+         <!-- Deleted Management Consultancy pref 10 -->
             <option value='23'>Entrepreneurship</option>
             <option value='24'>Consulting</option>
             <option value='25'>Data Analytics</option>
@@ -809,7 +805,6 @@
             <option value='5'>Biotechnology</option>
             <option value='6'>Civil Engineering</option>
             <option value='7'>Chemical Engineering</option>
-            <option value='8'>Civil Services</option>
             <option value='9'>Computer Science & Engineering</option>
             
             <option value='11'>Chemistry</option>
@@ -1007,7 +1002,6 @@
  					<select name='pref1' class='form-control'>
  						<option value='-1'>Choose your 1st Preference</option>
  						  <option value='4'>Banking & Finance</option>
-            <option value='10'>Management Consultancy</option>
             <option value='23'>Entrepreneurship</option>
             <option value='24'>Consulting</option>
             <option value='25'>Data Analytics</option>
@@ -1021,7 +1015,6 @@
             <option value='5'>Biotechnology</option>
             <option value='6'>Civil Engineering</option>
             <option value='7'>Chemical Engineering</option>
-            <option value='8'>Civil Services</option>
             <option value='9'>Computer Science & Engineering</option>
             
             <option value='11'>Chemistry</option>
@@ -1057,7 +1050,7 @@
  						<select name='pref2' class='form-control'>
  							<option value='-1'>Choose your 2nd Preference</option>
  							  <option value='4'>Banking & Finance</option>
-            <option value='10'>Management Consultancy</option>
+            <!-- <option value='10'>Management Consultancy</option> -->
             <option value='23'>Entrepreneurship</option>
             <option value='24'>Consulting</option>
             <option value='25'>Data Analytics</option>
@@ -1094,7 +1087,7 @@
  						<select name='pref3' class='form-control'>
  							<option value='-1'>Choose your 3rd Preference</option>
  							  <option value='4'>Banking & Finance</option>
-            <option value='10'>Management Consultancy</option>
+            <!-- <option value='10'>Management Consultancy</option> -->
             <option value='23'>Entrepreneurship</option>
             <option value='24'>Consulting</option>
             <option value='25'>Data Analytics</option>
@@ -1108,7 +1101,7 @@
             <option value='5'>Biotechnology</option>
             <option value='6'>Civil Engineering</option>
             <option value='7'>Chemical Engineering</option>
-            <option value='8'>Civil Services</option>
+            <!-- <option value='8'>Civil Services</option> -->
             <option value='9'>Computer Science & Engineering</option>
             
             <option value='11'>Chemistry</option>
