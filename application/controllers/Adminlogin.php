@@ -6,7 +6,7 @@
  * Date: 3/9/2017
  * Time: 7:41 AM
  */
-class Admin extends CI_Controller
+class Adminlogin extends CI_Controller
 {
     public function __construct(){
         parent::__construct();
