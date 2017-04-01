@@ -10,6 +10,9 @@
  	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
  	<!-- Generic page styles -->
  	<style type="text/css">
+    a{
+    color: #000000!important;
+}
     body{
         
       font-family: Century gothic;
@@ -208,7 +211,7 @@
 
                  <li class="nav_list"><a href="#bg">Home</a></li>
                  <li class="nav_list"><a href="#testimonials">Testimonials</a></li>
-                 <li class="nav_list"><a href="http://www.mentorship.iitkgp.ernet.in/index.php/faq" >FAQs</a></li>
+                 <li class="nav_list"><a href="http://localhost/mentorship/index.php/faq" >FAQs</a></li>
                  <li class="nav_list"><a href="https://medium.com/@studentsalumnicell.iitkgp">Share Your Story</a></li>
                  <li class="nav_list"><a href="#contact">Contact us</a></li>
              </ul>
