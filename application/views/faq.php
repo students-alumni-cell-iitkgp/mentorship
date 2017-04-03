@@ -12,9 +12,6 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- Generic page styles -->
     <style type="text/css">
-    a{
-    color: #000000!important;
-}
     body{
         
       font-family: Century gothic;
@@ -231,8 +228,9 @@
 
              <ul style=" margin-right: 10px"  class="nav navbar-nav navbar-right ">
 
-                 <li class="nav_list"><a href="http://www.mentorship.iitkgp.ernet.in">Home</a></li>
+                 <li class="nav_list"><a href="../">Home</a></li>
                  <li class="nav_list"><a href="#contact">Contact us</a></li>
+                 <li class="nav_list"><a href="../index.php/icebreaker">Icebreaker</a></li>
              </ul>
 
          </div>

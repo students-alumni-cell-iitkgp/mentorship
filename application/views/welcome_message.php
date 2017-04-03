@@ -10,11 +10,8 @@
  	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
  	<!-- Generic page styles -->
  	<style type="text/css">
-    a{
-    color: #000000!important;
-}
     body{
-        
+
       font-family: Century gothic;
       }
 
@@ -22,7 +19,7 @@
         @media only screen and (max-width:769px){
     #mentor_reg{
      margin-left: 0px;
-    
+
     }
      }
  		#bg {
@@ -33,13 +30,13 @@
  		#nav {
  			position: relative;
  			top: 20px;
- 
- 		} 
+
+ 		}
  		#quotes {
  			width: 60px;
  			height: 60px;
  		}
- 		
+
  		#box2 {
  			padding: 10px;
  			min-height: 240px;
@@ -56,7 +53,7 @@
  			margin:2px auto;
  			text-align:justify;
  			box-shadow: 0px 0px 15px #777;
- 			border-radius:7px; 
+ 			border-radius:7px;
  		}
  		div.all {
  			padding: 10px;
@@ -64,7 +61,7 @@
  			position: relative;
  			margin:2px auto;
  			text-align:justify;
- 			box-shadow: 0px 0px 10px #777; 
+ 			box-shadow: 0px 0px 10px #777;
  		}
  		#logo
  		{
@@ -114,26 +111,26 @@
  		}
  		#menu3 {
  			background-color: #87CEFA;
- 			border-radius:10px; 
+ 			border-radius:10px;
  		}
  		.abc {
  			text-align: center;
  			min-height: 670px;
- 
+
  		}
  		.abc a {
  			text-decoration: none;
  			color: white;
  			opacity:;
- 
+
  		}
- 		.abc hr{			
+ 		.abc hr{
  			color: black;
  			opacity: 0.8;
- 		} 
- 
- 		input[type=number]::-webkit-inner-spin-button, 
- input[type=number]::-webkit-outer-spin-button { 
+ 		}
+
+ 		input[type=number]::-webkit-inner-spin-button,
+ input[type=number]::-webkit-outer-spin-button {
      -webkit-appearance: none;
      -moz-appearance: none;
      appearance: none;
@@ -195,7 +192,7 @@
  <body>
 
  <div style="background-color: white;height: 90px;border-color:#2f4c73;" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-     
+
          <div class="navbar-header">
              <button style="display: none" type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-collapse">
                  <span class="sr-only">Toggle navigation</span>
@@ -206,13 +203,14 @@
              <a style="padding: 0px;margin-left: 0px" class="navbar-brand" href="#"><img height="93" src="img/samp_logo.png" alt=""></a>
          </div>
          <div id="nav_pc" style="margin-top: 1.4em" class="collapse navbar-collapse">
-             <button style="background-color:#2f4c73;border: 0px;font-stretch: expanded;margin-right: 3px;" onclick="window.open('img/brochur.pdf')"  class="btn btn-danger navbar-btn navbar-right">SAMP Brochure</button>
+             <button style="background-color:#2f4c73;border: 0px;font-stretch: expanded;margin-right: 3px;" onclick="window.open('img/brochure.pdf')"  class="btn btn-danger navbar-btn navbar-right">SAMP Brochure</button>
              <ul style=" margin-right: 10px"  class="nav navbar-nav navbar-right ">
 
                  <li class="nav_list"><a href="#bg">Home</a></li>
                  <li class="nav_list"><a href="#testimonials">Testimonials</a></li>
-                 <li class="nav_list"><a href="http://localhost/mentorship/index.php/faq" >FAQs</a></li>
+                 <li class="nav_list"><a href="index.php/faq" >FAQs</a></li>
                  <li class="nav_list"><a href="https://medium.com/@studentsalumnicell.iitkgp">Share Your Story</a></li>
+                 <li class="nav_list"><a href="index.php/icebreaker">Icebreaker</a></li>
                  <li class="nav_list"><a href="#contact">Contact us</a></li>
              </ul>
 
@@ -226,7 +224,7 @@
           <div class="col-md-3">
               <a href="http://www.sac.iitkgp.ac.in/"><img height="65" src="img/logo2.png" alt=""></a>
           </div>
-          
+
           <div class="col-md-6">
                 <h2 style="color: rgb(53,61,72);font-family: 'Open Sans',sans-serif;margin-left: 60px">Student Alumni Mentorship Programme</h2>
           </div>
@@ -238,7 +236,7 @@
  --><br><br><br><br>
 
  	<div id="bg" style="margin-top: 2px">
- 
+
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
    <!-- Indicators -->
    <ol class="carousel-indicators">
@@ -247,29 +245,29 @@
      <li data-target="#myCarousel" data-slide-to="2"></li>
      <!-- <li data-target="#myCarousel" data-slide-to="3"></li> -->
    </ol>
- 
+
    <!-- Wrapper for slides -->
    <div class="carousel-inner" role="listbox" >
      <div class="item active">
        <img src="img/slider1.jpg" style="width: 100vw;">
        </div>
- 
+
      <div class="item">
        <img src="img/slider2.jpg" style="width: 100vw;">
        </div>
- 
+
      <div class="item">
        <img src="img/slider3.jpg" style="width: 100vw;">
      </div>
- 
+
      <!-- <div class="item"> -->
        <!-- <img src="img/mentorshipsliderfour.jpg"  style="width: 100vw; height: 450px;"> -->
-       
+
      <!-- </div> -->
    </div>
- 
+
  </div>
-    
+
  </div><br> <br> <br> <br>
  <hr> <br>
  <div class="container-fluid">
@@ -278,7 +276,7 @@
 
         <div style="width: 99.5%" class="row">
         <div class="col-md-1"></div>
-           
+
             <div  class="col-md-3 col-xs-6 col-sm-6" align="center" >
                 <a data-toggle="modal" href="#registermentor" style="outline: none;">
                     <img class="card" src="img/mentor.png" alt="Mentor Registration" style="width:300px;margin-top: 2em">
@@ -343,7 +341,7 @@
 <div class="col-md-2"> </div>
 		<div class="col-md-8 col-sm-12 col-xs-12" style="position:relative;left:25px;">
 
-      <hr> 
+      <hr>
  			<br>
  			<div class="tab-content" style="width:100%">
  				<div style="margin-top: -2.5em;font-size: 1.1em" id="home" class="tab-pane fade in active">
@@ -356,30 +354,30 @@
                    <h2>Why choose this program</h2></center>
  						<h4  style="text-align:center;background-color:	#babfc6;color:white;border-radius:8px;">For Mentors</h4>
  						<p>As a successful member of the IIT Kharagpur alumni community, you have the power to inspire, motivate, and support IIT KGP students. Your knowledge, experience, and insight will help students open their eyes to the opportunities and challenges they will face after graduation.
- 
+
  							When you serve as a mentor, you form meaningful, rewarding relationships that prepare students to be better employees and leaders, inspire them to stay connected with IIT Kharagpur, and motivate them to support the next generation of students. Mentors help perpetuate, grow, and strengthen IIT Kharagpur’s global alumni network.
  						</p>
  						<h4 style="text-align:center;background-color:	#babfc6;color:white;border-radius:8px;">For Mentees</h4>
  						<p>Mentees can expect to receive guidance to help them navigate various career options, learn invaluable skills for professional development and make new contacts to expand their network.
- 
+
  							Mentors and students form supportive relationships built on the shared experience of the KGP way of life, and connect one-on-one in a relaxed, informal way. It’s a valuable relationship that serves as an important complement to your classroom and action learning experiences, and makes for a richer KGP experience.
  						</p>
             <hr>
- 					
+
  			<center><h2 id="testimonials"><br> <br> <br> Testimonials</h2></center>
- 					
+
  						<div class="row" >
  							<div class="col-md-8">
  								<img src="img/a.png" alt="" id="quotes" />
- 
- 								<p>    Mentorship is crucial for any individual whether a student or professional, and its importance is essential especially during the formative years in college. I signed up for this program with the objective to gain perspective and seek help from our experienced and extremely friendly alumni. His guidance helped me think and understand about the outside world, gain industry knowledge and valuable fundas which helped me perform well in college and outside. They know what is valued more when it comes to the professional world, hence I always prioritized my mentors advice - specifically maintaining a good CGPA. Interacting and keeping in touch with my mentor also helped improving my networking skills and connecting to more people.   
+
+ 								<p>    Mentorship is crucial for any individual whether a student or professional, and its importance is essential especially during the formative years in college. I signed up for this program with the objective to gain perspective and seek help from our experienced and extremely friendly alumni. His guidance helped me think and understand about the outside world, gain industry knowledge and valuable fundas which helped me perform well in college and outside. They know what is valued more when it comes to the professional world, hence I always prioritized my mentors advice - specifically maintaining a good CGPA. Interacting and keeping in touch with my mentor also helped improving my networking skills and connecting to more people.
  									<br>
  									<img src="img/b.png" alt="" id="quotes" class="pull-right" />
- 
- 									
+
+
  								</p>
  							</div>
- 							
+
  							<div class="col-md-4" >	<br><br><img src="img/t2.jpg" class="img img-circle" width="200px" height="200px">
  								<br><br>	<b style="position:relative;left:60px;">Ankit Gupta</b>
  							</div>
@@ -390,10 +388,10 @@
  								<p>      The Alumni Student mentorship program is a nice initiative by the Students’ Alumni Cell. In today’s time a direction and support from an esteemed mentor can go a long way in helping someone. It was a great experience for me as I got to learn a lot from my mentor who provided me with insight into the world after college as well as their experience as a student and in the professional sphere. Getting mentorship from an Alumni is a great thing as they can provide better help as they have been a part of the same institution as you."
  									<br>
  									<img src="img/b.png" alt="" id="quotes" class="pull-right" />
- 
- 									
+
+
  								</p></div>
- 								
+
  								<div class="col-md-4"><br><img src="img/t3.jpg" class="img img-circle"  width="200px" height="200px"><br><br><b style="position:relative;left:60px;">Pranshu Agrawal</b></div>
  							</div><hr>
  							<div class="row">
@@ -404,19 +402,19 @@
  										association with it, I can only say that although the path was clear for
  										me, it was dark. My mentor came in the form a torchlight.
  										<br>
- 										<img src="img/b.png" alt="" id="quotes" class="pull-right" />	
+ 										<img src="img/b.png" alt="" id="quotes" class="pull-right" />
  									</p>
  								</div>
- 								
+
  								<div class="col-md-4"><img src="img/t1.jpg" class="img img-circle" width="200px" height="200px"><br><br><b style="position:relative;left:60px;">Gobind Singh</b></div>
  							</p>
  						</div>
  					</div>
  				</div>
         <hr>
- 
+
                 <h3 id="contact">Contact Us</h3>
-                
+
     <div align="center">
 
         <h2>Students' Alumni Cell</h2>
@@ -431,24 +429,24 @@
           <a href="http://www.sac.iitkgp.ac.in/team.php" target="_blank" class="btn btn-success btn-block">
                                     View Complete Team
                                 </a>
-                            
+
 
                             <br/>
-                            
+
                             <div class="row">
- 
+
 
                                 <div class="col-md-4" style="font:bold 15px Calibri; text-align:center">
                                     Vaibhav Chauhan<br>vaibhavchauhan612@gmail.com <br>+918145844393</div>
- 
-                                    
+
+
                                     <div class="col-md-4" style="font:bold 15px Calibri; text-align:center">
-                                        Mridul Pant <br>mridul2010@gmail.com<br>+919933935867</div> 
-                                    
+                                        Mridul Pant <br>mridul2010@gmail.com<br>+919933935867</div>
+
                                 <div class="col-md-4" style="position:relative;font:bold 15px Calibri; text-align:center">
                                 Shruti Sagar<br>shruti.sagar.iitkgp@gmail.com  <br>+919933952668 </div> </div>
-                            
-  </div> </div> </div> 
+
+  </div> </div> </div>
 
  <br>
  <footer style="background-color:black; color:white; text-align:center; padding:10px; position:relative; bottom:0px; width:100%">&copy; Students' Alumni Cell, IIT Kharagpur
@@ -461,7 +459,7 @@
  </footer>
  <div class="modal fade" id="registerstudent" role="dialog">
  	<div class="modal-dialog modal-lg">
- 
+
  		<!-- Modal content-->
  		<div class="modal-content">
  			<div class="modal-header">
@@ -474,7 +472,7 @@
  				$a = array('class'=>'form-horizontal',
  					'method'=>'post',
  					'role'=>'form');
- 				echo form_open('http://www.mentorship.iitkgp.ernet.in/index.php/users',$a);					
+ 				echo form_open('http://www.mentorship.iitkgp.ernet.in/index.php/users',$a);
 
  				?>
  				<div class="form-group">
@@ -487,11 +485,11 @@
  						echo form_input($fname);
  						?>
  					</div>
- 
- 
- 
+
+
+
  				</div>
- 
+
  				<div class="form-group">
  					<div class="col-sm-12">
  						<?php
@@ -503,9 +501,9 @@
  						echo form_input($femail);
  						?>
  					</div>
- 
- 
- 
+
+
+
  				</div>
  				<div class="form-group">
  					<div class="col-sm-12">
@@ -518,9 +516,9 @@
  						echo form_input($fpass);
  						?>
  					</div>
- 
- 
- 
+
+
+
  				</div>
  			<!--
  			<div class="form-group">
@@ -579,12 +577,12 @@
  					<option value="SNST">School of Nano-Science and Technology</option>
  					<option value="SWS">School of Water Resources</option>
  					<option value="VGSOM">Vinod Gupta School of Management</option>
- 
- 				</select>	
+
+ 				</select>
  			</div>
- 
- 
- 
+
+
+
  		</div>
  		<div class="form-group">
  			<div class="col-sm-12">
@@ -611,9 +609,9 @@
  					<option value="VS">Vidyasagar  Hall</option>
  					<option value="VSRC">Vikram Sarabhai Residential Complex</option>
                     <option value="ZH">Zakir Hussain  Hall</option>
-                    </select>					
+                    </select>
  			</div>
- 
+
  			<!--div class="form-group">
  				<div class="col-sm-12">
  					<?php
@@ -625,12 +623,12 @@
  						 );
  					echo form_button($fb);
  					?>
- 				</div>	
+ 				</div>
  			</div-->
- 			<?php //echo form_close(); 
+ 			<?php //echo form_close();
  			?>
- 
- 		</div> 
+
+ 		</div>
  		<div id="">
  			<div class="form-group">
  				<div class="col-sm-12">
@@ -642,9 +640,9 @@
  					echo form_input($froll);
  					?>
  				</div>
- 
- 
- 
+
+
+
  			</div>
  			<div class="form-group">
  				<div class="col-sm-12">
@@ -657,24 +655,24 @@
  					echo form_input($fcg);
  					?>
  				</div>
- 
- 
- 
+
+
+
  			</div>
  			<div class="form-group">
  				<div class="col-sm-12">
- 					<?php 
+ 					<?php
  					$fphone = array('name' => 'phone',
  						'class' => 'form-control',
  						'placeholder' => 'Enter Your Phone No.',
  						'type' => 'number',
- 
+
  						'required' => 'required');
  					echo form_input($fphone);
  					?>
  				</div>
  			</div>
- 
+
  			<div class="form-group">
  				<div class="col-sm-12">
  					<?php /*
@@ -691,9 +689,9 @@
  						<option value='4'>4</option>
  						<option value='5'>5</option>
  						<option value='6'>6</option>
- 					</select>	
+ 					</select>
  				</div>
- 
+
  			</div>
  			<div class="form-group">
  				<div class="col-sm-12">
@@ -733,11 +731,11 @@
             <option value='6'>Civil Engineering</option>
             <option value='7'>Chemical Engineering</option>
             <option value='9'>Computer Science & Engineering</option>
-            
+
             <option value='11'>Chemistry</option>
             <option value='12'>Electrical Engineering</option>
             <option value='13'>Electronics & Electrical Communication Engineering</option>
-            
+
             <option value='14'>Geology & Geophysics</option>
             <option value='15'>Humanities & Social Sciences</option>
             <option value='16'>Industrial & Systems Engineering</option>
@@ -771,11 +769,11 @@
             <option value='6'>Civil Engineering</option>
             <option value='7'>Chemical Engineering</option>
             <option value='9'>Computer Science & Engineering</option>
-            
+
             <option value='11'>Chemistry</option>
             <option value='12'>Electrical Engineering</option>
             <option value='13'>Electronics & Electrical Communication Engineering</option>
-            
+
             <option value='14'>Geology & Geophysics</option>
             <option value='15'>Humanities & Social Sciences</option>
             <option value='16'>Industrial & Systems Engineering</option>
@@ -809,11 +807,11 @@
             <option value='6'>Civil Engineering</option>
             <option value='7'>Chemical Engineering</option>
             <option value='9'>Computer Science & Engineering</option>
-            
+
             <option value='11'>Chemistry</option>
             <option value='12'>Electrical Engineering</option>
             <option value='13'>Electronics & Electrical Communication Engineering</option>
-            
+
             <option value='14'>Geology & Geophysics</option>
             <option value='15'>Humanities & Social Sciences</option>
             <option value='16'>Industrial & Systems Engineering</option>
@@ -828,25 +826,25 @@
                 </div>
             </div>
         </div>
-        
-        <div class="form-group" >   
-            <div class="col-sm-12">     
-                <button   name="sub1" style="width:100%" class="btn btn-lg btn-success" >Submit</button>        
-            </div>          
+
+        <div class="form-group" >
+            <div class="col-sm-12">
+                <button   name="sub1" style="width:100%" class="btn btn-lg btn-success" >Submit</button>
+            </div>
         </div>
- 
+
     </form>
  </div>
  <div class="modal-footer">
     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
  </div>
  </div>
- 
+
  </div>
  </div>
  <div class="modal fade" id="registermentor" role="dialog">
     <div class="modal-dialog modal-lg">
- 
+
         <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
@@ -854,13 +852,13 @@
                 <h4 class="modal-title" style="text-align:center;">Register  Here</h4>
             </div>
             <div class="modal-body">
- 
+
                 <?php
                 $this->load->helper('form');
                 $a = array('class'=>'form-horizontal',
                     'method'=>'post',
                     'role'=>'form');
-                echo form_open('http://www.mentorship.iitkgp.ernet.in/index.php/users',$a);                 
+                echo form_open('http://www.mentorship.iitkgp.ernet.in/index.php/users',$a);
                 ?>
                 <div class="form-group">
                     <div class="col-sm-12">
@@ -872,11 +870,11 @@
                         echo form_input($fname);
                         ?>
                     </div>
- 
- 
- 
+
+
+
                 </div>
- 
+
                 <div class="form-group">
                     <div class="col-sm-12">
                         <?php
@@ -888,9 +886,9 @@
                         echo form_input($femail);
                         ?>
                     </div>
- 
- 
- 
+
+
+
                 </div>
                 <div class="form-group">
                     <div class="col-sm-12">
@@ -903,9 +901,9 @@
                         echo form_input($fpass);
                         ?>
                     </div>
- 
- 
- 
+
+
+
                 </div>
             <!--
             <div class="form-group">
@@ -964,18 +962,18 @@
                     <option value="SNST">School of Nano-Science and Technology</option>
                     <option value="SWS">School of Water Resources</option>
                     <option value="VGSOM">Vinod Gupta School of Management</option>
- 
-                </select>   
+
+                </select>
             </div>
- 
- 
- 
+
+
+
         </div>
- 
+
         <div id="f2" style="">
             <div class="form-group">
                 <div class="col-sm-12">
-                    <?php 
+                    <?php
                     $fpasout = array('name' => 'pout',
                         'class' => 'form-control',
                         'placeholder' => 'Enter Your Year Of Graduation',
@@ -984,7 +982,7 @@
                     ?>
                 </div>
             </div>
- 
+
             <div class="form-group">
                 <div class="col-sm-3">
 
@@ -1019,11 +1017,11 @@
             <option value='6'>Civil Engineering</option>
             <option value='7'>Chemical Engineering</option>
             <option value='9'>Computer Science & Engineering</option>
-            
+
             <option value='11'>Chemistry</option>
             <option value='12'>Electrical Engineering</option>
             <option value='13'>Electronics & Electrical Communication Engineering</option>
-            
+
             <option value='14'>Geology & Geophysics</option>
             <option value='15'>Humanities & Social Sciences</option>
             <option value='16'>Industrial & Systems Engineering</option>
@@ -1045,8 +1043,8 @@
  					</select>
  				</div>
  			</div>
- 			
- 			
+
+
  			<div id="f1" style="display:none;">
  				<div class="form-group">
  					<div class="col-sm-12">
@@ -1068,11 +1066,11 @@
             <option value='6'>Civil Engineering</option>
             <option value='7'>Chemical Engineering</option>
             <option value='9'>Computer Science & Engineering</option>
-            
+
             <option value='11'>Chemistry</option>
             <option value='12'>Electrical Engineering</option>
             <option value='13'>Electronics & Electrical Communication Engineering</option>
-            
+
             <option value='14'>Geology & Geophysics</option>
             <option value='15'>Humanities & Social Sciences</option>
             <option value='16'>Industrial & Systems Engineering</option>
@@ -1106,11 +1104,11 @@
             <option value='7'>Chemical Engineering</option>
             <!-- <option value='8'>Civil Services</option> -->
             <option value='9'>Computer Science & Engineering</option>
-            
+
             <option value='11'>Chemistry</option>
             <option value='12'>Electrical Engineering</option>
             <option value='13'>Electronics & Electrical Communication Engineering</option>
-            
+
             <option value='14'>Geology & Geophysics</option>
             <option value='15'>Humanities & Social Sciences</option>
             <option value='16'>Industrial & Systems Engineering</option>
@@ -1127,7 +1125,7 @@
  			<h3 class="center"> Contact Details </h3>
  			<div class="form-group">
  				<div class="col-sm-12">
- 					<?php 
+ 					<?php
  					$fphone = array('name' => 'phone',
  						'class' => 'form-control',
  						'placeholder' => 'Enter Your Phone No.',
@@ -1139,7 +1137,7 @@
  			</div>
  			<div class="form-group">
  				<div class="col-sm-12">
- 					<?php 
+ 					<?php
  					$firm = array('name' => 'firm',
  						'class' => 'form-control',
  						'placeholder' => 'Enter Your Organisation');
@@ -1149,7 +1147,7 @@
  			</div>
  			<div class="form-group">
  				<div class="col-sm-12">
- 					<?php 
+ 					<?php
  					$fd = array('name' => 'des',
  						'class' => 'form-control',
  						'placeholder' => 'Enter Your Designation');
@@ -1157,34 +1155,34 @@
  					?>
  				</div>
  			</div>
- 
- 
+
+
  		</div>
- 		<div class="form-group"	>	
- 			<div class="col-sm-12">		
- 				<button   name="sub2" style="width:100%" class="btn btn-lg btn-success" >Submit</button>		
- 			</div>			
+ 		<div class="form-group"	>
+ 			<div class="col-sm-12">
+ 				<button   name="sub2" style="width:100%" class="btn btn-lg btn-success" >Submit</button>
+ 			</div>
  		</div>
- 
+
  	</form>
- 
+
  </div>
- 
- 
+
+
  <div class="modal-footer">
     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
  </div>
- 
+
  </div>
- 
+
  </div>
- 
+
  </div>
- 
- 
- 
- 
- 
+
+
+
+
+
  <?php
  if(isset($_GET['err'])) {
     if($_GET['err']=='user') {
@@ -1195,8 +1193,8 @@
     }
  }
  ?>
- 
- 
+
+
  <script type="text/javascript">
     function f1(x){
         if(x.options[x.selectedIndex].text=="Yes") {
@@ -1214,13 +1212,13 @@
             document.getElementById("f2").style.display="none";
         }
     }
- 
- 
+
+
  </script>
- 
+
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
- 
+
  </body>
  
 
