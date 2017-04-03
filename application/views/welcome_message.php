@@ -10,6 +10,9 @@
  	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
  	<!-- Generic page styles -->
  	<style type="text/css">
+    a{
+    color: #000000!important;
+}
     body{
         
       font-family: Century gothic;
@@ -203,12 +206,12 @@
              <a style="padding: 0px;margin-left: 0px" class="navbar-brand" href="#"><img height="93" src="img/samp_logo.png" alt=""></a>
          </div>
          <div id="nav_pc" style="margin-top: 1.4em" class="collapse navbar-collapse">
-             <button style="background-color:#2f4c73;border: 0px;font-stretch: expanded;margin-right: 3px;" onclick="window.open('img/brochure.pdf')"  class="btn btn-danger navbar-btn navbar-right">SAMP Brochure</button>
+             <button style="background-color:#2f4c73;border: 0px;font-stretch: expanded;margin-right: 3px;" onclick="window.open('img/brochur.pdf')"  class="btn btn-danger navbar-btn navbar-right">SAMP Brochure</button>
              <ul style=" margin-right: 10px"  class="nav navbar-nav navbar-right ">
 
                  <li class="nav_list"><a href="#bg">Home</a></li>
                  <li class="nav_list"><a href="#testimonials">Testimonials</a></li>
-                 <li class="nav_list"><a href="http://www.mentorship.iitkgp.ernet.in/index.php/faq" >FAQs</a></li>
+                 <li class="nav_list"><a href="http://localhost/mentorship/index.php/faq" >FAQs</a></li>
                  <li class="nav_list"><a href="https://medium.com/@studentsalumnicell.iitkgp">Share Your Story</a></li>
                  <li class="nav_list"><a href="#contact">Contact us</a></li>
              </ul>

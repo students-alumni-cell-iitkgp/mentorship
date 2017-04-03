@@ -7,7 +7,7 @@
         'method' => 'post',
         'role' => 'form',
     );
-    echo form_open('index.php/AdminLogin/login',$for);
+    echo form_open('index.php/Adminlogin/login',$for);
     ?>
 </div>
 
