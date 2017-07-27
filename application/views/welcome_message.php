@@ -436,15 +436,18 @@
                             <div class="row">
 
 
-                                <div class="col-md-4" style="font:bold 15px Calibri; text-align:center">
-                                    Vaibhav Chauhan<br>vaibhavchauhan612@gmail.com <br>+918145844393</div>
+                                <div class="col-md-3" style="font:bold 15px Calibri; text-align:center">
+                                    Bharat Chandra<br>imbharat16@gmail.com <br>+91-9932544235</div>
 
 
-                                    <div class="col-md-4" style="font:bold 15px Calibri; text-align:center">
-                                        Mridul Pant <br>mridul2010@gmail.com<br>+919933935867</div>
+                                    <div class="col-md-3" style="font:bold 15px Calibri; text-align:center">
+                                        Vishal Kumar Singh <br>vishalsingh08.iitkgp@gmail.com
+<br>+91-8769797343</div>
+                                  <div class="col-md-3" style="font:bold 15px Calibri; text-align:center">
+                                        Daksh Thakkur <br>daksh.thakkur@gmail.com<br>+91-9460300246</div>
 
-                                <div class="col-md-4" style="position:relative;font:bold 15px Calibri; text-align:center">
-                                Shruti Sagar<br>shruti.sagar.iitkgp@gmail.com  <br>+919933952668 </div> </div>
+                                <div class="col-md-3" style="position:relative;font:bold 15px Calibri; text-align:center">
+                                Anmol Thakkar<br>anmolbt@gmail.com  <br>+91-9475240720 </div> </div>
 
   </div> </div> </div>
 
