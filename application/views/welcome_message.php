@@ -203,13 +203,13 @@
              <a style="padding: 0px;margin-left: 0px" class="navbar-brand" href="#"><img height="93" src="img/samp_logo.png" alt=""></a>
          </div>
          <div id="nav_pc" style="margin-top: 1.4em" class="collapse navbar-collapse">
-             <button style="background-color:#2f4c73;border: 0px;font-stretch: expanded;margin-right: 3px;" onclick="window.open('img/brochure.pdf')"  class="btn btn-danger navbar-btn navbar-right">SAMP Brochure</button>
+             <button style="background-color:#2f4c73;border: 0px;font-stretch: expanded;margin-right: 3px;" onclick="window.open('img/brochure1.pdf')"  class="btn btn-danger navbar-btn navbar-right">SAMP Brochure</button>
              <ul style=" margin-right: 10px"  class="nav navbar-nav navbar-right ">
 
                  <li class="nav_list"><a href="#bg">Home</a></li>
                  <li class="nav_list"><a href="#testimonials">Testimonials</a></li>
                  <li class="nav_list"><a href="index.php/faq" >FAQs</a></li>
-                 <li class="nav_list"><a href="https://medium.com/@studentsalumnicell.iitkgp">Share Your Story</a></li>
+                 <li class="nav_list"><a href="https://medium.com/@studentsalumnicell.iitkgp">Alumni Blog</a></li>
                  <li class="nav_list"><a href="index.php/icebreaker">Icebreaker</a></li>
                  <li class="nav_list"><a href="#contact">Contact us</a></li>
              </ul>
@@ -351,7 +351,7 @@
  						With an ocean of possibilities available, students often find it difficult to decide their way out into the future. There are lots of instances where students need  a mentor who can counsel and guide them through. The alumni can improve students' insight into various aspects of life.  Their journey and personal experiences can help the students and motivate them through this pivotal phase of life. Under this programme, we invite our alumni from across the world and from different fields to interact with the students and help them build their network and gain new perspective on the possibilities open to them after graduation.</p>
  					<hr>
  				   <center>
-                   <h2>Why choose this program</h2></center>
+                   <h2>Why choose this Programme</h2></center>
  						<h4  style="text-align:center;background-color:	#babfc6;color:white;border-radius:8px;">For Mentors</h4>
  						<p>As a successful member of the IIT Kharagpur alumni community, you have the power to inspire, motivate, and support IIT KGP students. Your knowledge, experience, and insight will help students open their eyes to the opportunities and challenges they will face after graduation.
 
@@ -370,7 +370,7 @@
  							<div class="col-md-8">
  								<img src="img/a.png" alt="" id="quotes" />
 
- 								<p>    Mentorship is crucial for any individual whether a student or professional, and its importance is essential especially during the formative years in college. I signed up for this program with the objective to gain perspective and seek help from our experienced and extremely friendly alumni. His guidance helped me think and understand about the outside world, gain industry knowledge and valuable fundas which helped me perform well in college and outside. They know what is valued more when it comes to the professional world, hence I always prioritized my mentors advice - specifically maintaining a good CGPA. Interacting and keeping in touch with my mentor also helped improving my networking skills and connecting to more people.
+ 								<p>    Mentorship is crucial for any individual whether a student or professional, and its importance is essential especially during the formative years in college. I signed up for this programme with the objective to gain perspective and seek help from our experienced and extremely friendly alumni. His guidance helped me think and understand about the outside world, gain industry knowledge and valuable fundas which helped me perform well in college and outside. They know what is valued more when it comes to the professional world, hence I always prioritized my mentors advice - specifically maintaining a good CGPA. Interacting and keeping in touch with my mentor also helped improving my networking skills and connecting to more people.
  									<br>
  									<img src="img/b.png" alt="" id="quotes" class="pull-right" />
 
@@ -385,7 +385,7 @@
  						<div class="row">
  							<div class="col-md-8">
  								<img src="img/a.png" alt="" id="quotes" />
- 								<p>      The Alumni Student mentorship program is a nice initiative by the Students’ Alumni Cell. In today’s time a direction and support from an esteemed mentor can go a long way in helping someone. It was a great experience for me as I got to learn a lot from my mentor who provided me with insight into the world after college as well as their experience as a student and in the professional sphere. Getting mentorship from an Alumni is a great thing as they can provide better help as they have been a part of the same institution as you."
+ 								<p>      The Alumni Student mentorship programme is a nice initiative by the Students’ Alumni Cell. In today’s time a direction and support from an esteemed mentor can go a long way in helping someone. It was a great experience for me as I got to learn a lot from my mentor who provided me with insight into the world after college as well as their experience as a student and in the professional sphere. Getting mentorship from an Alumni is a great thing as they can provide better help as they have been a part of the same institution as you."
  									<br>
  									<img src="img/b.png" alt="" id="quotes" class="pull-right" />
 
